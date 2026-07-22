@@ -1,0 +1,286 @@
+{
+  "usableSessionsCount": 5,
+  "retiredSessionsCount": 0,
+  "sessions": [
+    {
+      "id": "session_hHeBVBTjQZ",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.2",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "MALSESSIONID",
+            "value": "285f40a16f6c0330db68e19d74e33569",
+            "expires": "2036-07-19T17:06:27.000Z",
+            "maxAge": 315360000,
+            "domain": "myanimelist.net",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2026-07-22T17:06:23.574Z",
+            "lastAccessed": "2026-07-22T17:06:23.574Z"
+          },
+          {
+            "key": "mal_cache_key",
+            "value": "6d5aea7d238714dd3671759bfada4bdd",
+            "domain": "myanimelist.net",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2026-07-22T17:06:23.574Z",
+            "lastAccessed": "2026-07-22T17:06:23.574Z"
+          },
+          {
+            "key": "is_logged_in",
+            "value": "deleted",
+            "expires": "1970-01-01T00:00:01.000Z",
+            "maxAge": 0,
+            "domain": "myanimelist.net",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2026-07-22T17:06:23.574Z",
+            "lastAccessed": "2026-07-22T17:06:23.574Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2026-07-22T17:56:15.370Z",
+      "createdAt": "2026-07-22T17:06:15.370Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_dqzZeD29c9",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.2",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "MALSESSIONID",
+            "value": "15acc89c371f0dd79b65b34197f324d4",
+            "expires": "2036-07-19T17:06:27.000Z",
+            "maxAge": 315360000,
+            "domain": "myanimelist.net",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2026-07-22T17:06:23.116Z",
+            "lastAccessed": "2026-07-22T17:06:23.116Z"
+          },
+          {
+            "key": "mal_cache_key",
+            "value": "6d5aea7d238714dd3671759bfada4bdd",
+            "domain": "myanimelist.net",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2026-07-22T17:06:23.116Z",
+            "lastAccessed": "2026-07-22T17:06:23.116Z"
+          },
+          {
+            "key": "is_logged_in",
+            "value": "deleted",
+            "expires": "1970-01-01T00:00:01.000Z",
+            "maxAge": 0,
+            "domain": "myanimelist.net",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2026-07-22T17:06:23.116Z",
+            "lastAccessed": "2026-07-22T17:06:23.116Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2026-07-22T17:56:21.969Z",
+      "createdAt": "2026-07-22T17:06:21.969Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_awgMNgyDFl",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.2",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "MALSESSIONID",
+            "value": "b8afd916adf9b9070f4d70ae30091e2c",
+            "expires": "2036-07-19T17:06:29.000Z",
+            "maxAge": 315360000,
+            "domain": "myanimelist.net",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2026-07-22T17:06:24.706Z",
+            "lastAccessed": "2026-07-22T17:06:24.706Z"
+          },
+          {
+            "key": "mal_cache_key",
+            "value": "6d5aea7d238714dd3671759bfada4bdd",
+            "domain": "myanimelist.net",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2026-07-22T17:06:24.706Z",
+            "lastAccessed": "2026-07-22T17:06:24.706Z"
+          },
+          {
+            "key": "is_logged_in",
+            "value": "deleted",
+            "expires": "1970-01-01T00:00:01.000Z",
+            "maxAge": 0,
+            "domain": "myanimelist.net",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2026-07-22T17:06:24.706Z",
+            "lastAccessed": "2026-07-22T17:06:24.706Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2026-07-22T17:56:23.820Z",
+      "createdAt": "2026-07-22T17:06:23.820Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_7vF7EwuJOa",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.2",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "MALSESSIONID",
+            "value": "2130e86c06f8490a5944583e133bc26f",
+            "expires": "2036-07-19T17:06:29.000Z",
+            "maxAge": 315360000,
+            "domain": "myanimelist.net",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2026-07-22T17:06:27.913Z",
+            "lastAccessed": "2026-07-22T17:06:27.913Z"
+          },
+          {
+            "key": "mal_cache_key",
+            "value": "6d5aea7d238714dd3671759bfada4bdd",
+            "domain": "myanimelist.net",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2026-07-22T17:06:27.913Z",
+            "lastAccessed": "2026-07-22T17:06:27.913Z"
+          },
+          {
+            "key": "is_logged_in",
+            "value": "deleted",
+            "expires": "1970-01-01T00:00:01.000Z",
+            "maxAge": 0,
+            "domain": "myanimelist.net",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2026-07-22T17:06:27.913Z",
+            "lastAccessed": "2026-07-22T17:06:27.913Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2026-07-22T17:56:24.319Z",
+      "createdAt": "2026-07-22T17:06:24.319Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_J8R7mvWibC",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.2",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "MALSESSIONID",
+            "value": "a618a1bd159170623992c782e46d7592",
+            "expires": "2036-07-19T17:06:30.000Z",
+            "maxAge": 315360000,
+            "domain": "myanimelist.net",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2026-07-22T17:06:25.728Z",
+            "lastAccessed": "2026-07-22T17:06:25.728Z"
+          },
+          {
+            "key": "mal_cache_key",
+            "value": "6d5aea7d238714dd3671759bfada4bdd",
+            "domain": "myanimelist.net",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2026-07-22T17:06:25.728Z",
+            "lastAccessed": "2026-07-22T17:06:25.728Z"
+          },
+          {
+            "key": "is_logged_in",
+            "value": "deleted",
+            "expires": "1970-01-01T00:00:01.000Z",
+            "maxAge": 0,
+            "domain": "myanimelist.net",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2026-07-22T17:06:25.728Z",
+            "lastAccessed": "2026-07-22T17:06:25.728Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2026-07-22T17:56:24.983Z",
+      "createdAt": "2026-07-22T17:06:24.983Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    }
+  ]
+}
