@@ -1,0 +1,9 @@
+{
+	"id": "KmELyeduH5bKtfQ",
+	"json": "{\"id\":\"KmELyeduH5bKtfQ\",\"url\":\"https://myanimelist.net/character/61/Robin_Nico\",\"loadedUrl\":\"https://myanimelist.net/character/61/Robin_Nico\",\"uniqueKey\":\"https://myanimelist.net/character/61/Robin_Nico\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:40.065Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/character/61/Robin_Nico",
+	"url": "https://myanimelist.net/character/61/Robin_Nico"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "n2MkpQD5llEtVh9",
+	"json": "{\"id\":\"n2MkpQD5llEtVh9\",\"url\":\"https://myanimelist.net/anime/season/2008/spring\",\"loadedUrl\":\"https://myanimelist.net/anime/season/2008/spring\",\"uniqueKey\":\"https://myanimelist.net/anime/season/2008/spring\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:50.095Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/season/2008/spring",
+	"url": "https://myanimelist.net/anime/season/2008/spring"
+}

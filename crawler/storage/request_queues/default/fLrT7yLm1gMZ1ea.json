@@ -1,0 +1,9 @@
+{
+	"id": "fLrT7yLm1gMZ1ea",
+	"json": "{\"id\":\"fLrT7yLm1gMZ1ea\",\"url\":\"https://myanimelist.net/anime/5/Cowboy_Bebop__Tengoku_no_Tobira\",\"loadedUrl\":\"https://myanimelist.net/anime/5/Cowboy_Bebop__Tengoku_no_Tobira\",\"uniqueKey\":\"https://myanimelist.net/anime/5/Cowboy_Bebop__Tengoku_no_Tobira\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"Error: requestHandler timed out after 30 seconds.\\n    at Timeout._onTimeout (C:\\\\Users\\\\Lenovo\\\\Desktop\\\\SearchEngine\\\\HoloSearchEngine\\\\crawler\\\\node_modules\\\\@apify\\\\src\\\\index.ts:89:74)\\n    at listOnTimeout (node:internal/timers:605:17)\\n    at process.processTimers (node:internal/timers:541:7)\"],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:41.274Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 1,
+	"uniqueKey": "https://myanimelist.net/anime/5/Cowboy_Bebop__Tengoku_no_Tobira",
+	"url": "https://myanimelist.net/anime/5/Cowboy_Bebop__Tengoku_no_Tobira"
+}

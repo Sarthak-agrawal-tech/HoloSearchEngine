@@ -1,0 +1,9 @@
+{
+	"id": "SMDLcmUwcVQ1fG9",
+	"json": "{\"id\":\"SMDLcmUwcVQ1fG9\",\"url\":\"https://myanimelist.net/anime/17205/Cowboy_Bebop__Ein_no_Natsuyasumi\",\"loadedUrl\":\"https://myanimelist.net/anime/17205/Cowboy_Bebop__Ein_no_Natsuyasumi\",\"uniqueKey\":\"https://myanimelist.net/anime/17205/Cowboy_Bebop__Ein_no_Natsuyasumi\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:28.117Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/17205/Cowboy_Bebop__Ein_no_Natsuyasumi",
+	"url": "https://myanimelist.net/anime/17205/Cowboy_Bebop__Ein_no_Natsuyasumi"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "rsFMDFZuiioEolP",
+	"json": "{\"id\":\"rsFMDFZuiioEolP\",\"url\":\"https://myanimelist.net/anime/season/1998/fall\",\"loadedUrl\":\"https://myanimelist.net/anime/season/1998/fall\",\"uniqueKey\":\"https://myanimelist.net/anime/season/1998/fall\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:06.060Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/season/1998/fall",
+	"url": "https://myanimelist.net/anime/season/1998/fall"
+}

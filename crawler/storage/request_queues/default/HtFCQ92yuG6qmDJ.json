@@ -1,0 +1,9 @@
+{
+	"id": "HtFCQ92yuG6qmDJ",
+	"json": "{\"id\":\"HtFCQ92yuG6qmDJ\",\"url\":\"https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood/characters\",\"loadedUrl\":\"https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood/characters\",\"uniqueKey\":\"https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood/characters\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:26.712Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood/characters",
+	"url": "https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood/characters"
+}

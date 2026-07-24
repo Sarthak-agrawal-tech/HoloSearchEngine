@@ -1,0 +1,9 @@
+{
+	"id": "3tBnijqYWX8DMeu",
+	"json": "{\"id\":\"3tBnijqYWX8DMeu\",\"url\":\"https://myanimelist.net/anime/2107/One_Piece_Movie_08__Episode_of_Alabasta_-_Sabaku_no_Oujo_to_Kaizoku-tachi\",\"loadedUrl\":\"https://myanimelist.net/anime/2107/One_Piece_Movie_08__Episode_of_Alabasta_-_Sabaku_no_Oujo_to_Kaizoku-tachi\",\"uniqueKey\":\"https://myanimelist.net/anime/2107/One_Piece_Movie_08__Episode_of_Alabasta_-_Sabaku_no_Oujo_to_Kaizoku-tachi\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:19.189Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/2107/One_Piece_Movie_08__Episode_of_Alabasta_-_Sabaku_no_Oujo_to_Kaizoku-tachi",
+	"url": "https://myanimelist.net/anime/2107/One_Piece_Movie_08__Episode_of_Alabasta_-_Sabaku_no_Oujo_to_Kaizoku-tachi"
+}

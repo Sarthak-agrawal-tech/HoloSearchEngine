@@ -1,0 +1,9 @@
+{
+	"id": "3tJEzed2cAsI6he",
+	"json": "{\"id\":\"3tJEzed2cAsI6he\",\"url\":\"https://myanimelist.net/anime/633/Legend_of_Basara\",\"loadedUrl\":\"https://myanimelist.net/anime/633/Legend_of_Basara\",\"uniqueKey\":\"https://myanimelist.net/anime/633/Legend_of_Basara\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:22.471Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/633/Legend_of_Basara",
+	"url": "https://myanimelist.net/anime/633/Legend_of_Basara"
+}

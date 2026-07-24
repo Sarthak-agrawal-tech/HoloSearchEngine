@@ -1,0 +1,9 @@
+{
+	"id": "bYqWsRqJDNA4Kts",
+	"json": "{\"id\":\"bYqWsRqJDNA4Kts\",\"url\":\"https://myanimelist.net/anime/10033/Toriko\",\"loadedUrl\":\"https://myanimelist.net/anime/10033/Toriko\",\"uniqueKey\":\"https://myanimelist.net/anime/10033/Toriko\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:32.881Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/10033/Toriko",
+	"url": "https://myanimelist.net/anime/10033/Toriko"
+}

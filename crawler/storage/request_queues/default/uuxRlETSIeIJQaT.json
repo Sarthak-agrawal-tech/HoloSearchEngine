@@ -1,0 +1,9 @@
+{
+	"id": "uuxRlETSIeIJQaT",
+	"json": "{\"id\":\"uuxRlETSIeIJQaT\",\"url\":\"https://myanimelist.net/character/40/Luffy_Monkey_D\",\"loadedUrl\":\"https://myanimelist.net/character/40/Luffy_Monkey_D\",\"uniqueKey\":\"https://myanimelist.net/character/40/Luffy_Monkey_D\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:48.804Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/character/40/Luffy_Monkey_D",
+	"url": "https://myanimelist.net/character/40/Luffy_Monkey_D"
+}

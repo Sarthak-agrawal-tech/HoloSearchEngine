@@ -31,8 +31,30 @@ const OUTPUT_PATH = path.resolve(
 )
 
 const results: PageResult[] = [];
+let pagesProcessed = 0;
+let pagesExtracted = 0;
 const crawler = new CheerioCrawler({
-    async requestHandler({ request, body}) {
+    async requestHandler({ request, body, enqueueLinks}) {
+        pagesProcessed++;
+        await enqueueLinks({
+            regexps: [
+                // 1. Matches only the main Anime overview pages (stops exactly after the ID or slug)
+                /^https:\/\/myanimelist\.net\/anime\/\d+(?:\/[\w-]+)?\/?$/,
+
+                // 2. Matches Characters & Staff sub-pages for an anime (Crucial for search index!)
+                /^https:\/\/myanimelist\.net\/anime\/\d+(?:\/[\w-]+)?\/characters(?:\/|$)/,
+
+                // 3. Matches individual Character profile pages
+                /^https:\/\/myanimelist\.net\/character\/\d+(?:\/[\w-]+)?\/?$/,
+
+                // 4. Matches current, upcoming, AND all past archive season pages (e.g., /season/2023/fall)
+                /^https:\/\/myanimelist\.net\/anime\/season(?:\/\d{4}\/\w+|\/|$)/,
+
+                // 5. Matches the upcoming anime index
+                /^https:\/\/myanimelist\.net\/anime\/upcoming(?:\/|$)/
+                    ],
+            limit: 100,
+        })
         const html = body.toString();
         const dom = new JSDOM(html, { url: request.url })
         const article = new Readability(dom.window.document).parse();
@@ -52,6 +74,7 @@ const crawler = new CheerioCrawler({
         };
 
         results.push(result);
+        pagesExtracted++;
         console.log(`[OK] ${article.title} (${result.wordCount} words)`);
     },
 
@@ -59,7 +82,7 @@ const crawler = new CheerioCrawler({
         console.error(`[FAIL] ${request.url} - ${request.errorMessages ?? 'Unknown error'}`)
     },
 
-    maxRequestsPerCrawl: SEED_URLS.length,
+    maxRequestsPerCrawl: 500,
     maxConcurrency: 2,
     requestHandlerTimeoutSecs: 30,
 });
@@ -69,11 +92,11 @@ async function main() {
 
     await crawler.run(SEED_URLS);
 
-    console.log(`\nDone. ${results.length}/${SEED_URLS.length} pages extracted.`);
-
     await fs.mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
 
     await fs.writeFile(OUTPUT_PATH, JSON.stringify(results, null, 2), 'utf-8');
+    
+    console.log(`Done. ${pagesExtracted}/${pagesProcessed} pages extracted.`)
 
     console.log(`Output → ${OUTPUT_PATH}`);
 }

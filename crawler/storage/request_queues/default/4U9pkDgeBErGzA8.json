@@ -1,0 +1,9 @@
+{
+	"id": "4U9pkDgeBErGzA8",
+	"json": "{\"id\":\"4U9pkDgeBErGzA8\",\"url\":\"https://myanimelist.net/anime/5220/Shangri-La\",\"loadedUrl\":\"https://myanimelist.net/anime/5220/Shangri-La\",\"uniqueKey\":\"https://myanimelist.net/anime/5220/Shangri-La\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:06.448Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/5220/Shangri-La",
+	"url": "https://myanimelist.net/anime/5220/Shangri-La"
+}

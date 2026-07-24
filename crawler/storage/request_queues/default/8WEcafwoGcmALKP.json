@@ -1,0 +1,9 @@
+{
+	"id": "8WEcafwoGcmALKP",
+	"json": "{\"id\":\"8WEcafwoGcmALKP\",\"url\":\"https://myanimelist.net/anime/4186/Koukaku_no_Regios\",\"loadedUrl\":\"https://myanimelist.net/anime/4186/Koukaku_no_Regios\",\"uniqueKey\":\"https://myanimelist.net/anime/4186/Koukaku_no_Regios\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:20.538Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/4186/Koukaku_no_Regios",
+	"url": "https://myanimelist.net/anime/4186/Koukaku_no_Regios"
+}

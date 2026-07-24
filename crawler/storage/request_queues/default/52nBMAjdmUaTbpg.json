@@ -1,0 +1,9 @@
+{
+	"id": "52nBMAjdmUaTbpg",
+	"json": "{\"id\":\"52nBMAjdmUaTbpg\",\"url\":\"https://myanimelist.net/anime/season/2009/summer\",\"loadedUrl\":\"https://myanimelist.net/anime/season/2009/summer\",\"uniqueKey\":\"https://myanimelist.net/anime/season/2009/summer\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:52.764Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/season/2009/summer",
+	"url": "https://myanimelist.net/anime/season/2009/summer"
+}

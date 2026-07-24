@@ -1,0 +1,9 @@
+{
+	"id": "8f1GB4c12qK4yhK",
+	"json": "{\"id\":\"8f1GB4c12qK4yhK\",\"url\":\"https://myanimelist.net/character/99699/Maria_Murdock\",\"loadedUrl\":\"https://myanimelist.net/character/99699/Maria_Murdock\",\"uniqueKey\":\"https://myanimelist.net/character/99699/Maria_Murdock\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:57.570Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/character/99699/Maria_Murdock",
+	"url": "https://myanimelist.net/character/99699/Maria_Murdock"
+}
