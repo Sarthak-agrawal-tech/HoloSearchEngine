@@ -1,9 +1,0 @@
-{
-	"id": "i9L11kbcbxG3imV",
-	"json": "{\"id\":\"i9L11kbcbxG3imV\",\"url\":\"https://myanimelist.net/character/131444/Gate_Chairman\",\"loadedUrl\":\"https://myanimelist.net/character/131444/Gate_Chairman\",\"uniqueKey\":\"https://myanimelist.net/character/131444/Gate_Chairman\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:47.034Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/131444/Gate_Chairman",
-	"url": "https://myanimelist.net/character/131444/Gate_Chairman"
-}

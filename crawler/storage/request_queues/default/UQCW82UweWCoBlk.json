@@ -1,6 +1,6 @@
 {
 	"id": "UQCW82UweWCoBlk",
-	"json": "{\"id\":\"UQCW82UweWCoBlk\",\"url\":\"https://myanimelist.net/character/46496/Erwin_Smith\",\"loadedUrl\":\"https://myanimelist.net/character/46496/Erwin_Smith\",\"uniqueKey\":\"https://myanimelist.net/character/46496/Erwin_Smith\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:56:10.387Z\"}",
+	"json": "{\"id\":\"UQCW82UweWCoBlk\",\"url\":\"https://myanimelist.net/character/46496/Erwin_Smith\",\"loadedUrl\":\"https://myanimelist.net/character/46496/Erwin_Smith\",\"uniqueKey\":\"https://myanimelist.net/character/46496/Erwin_Smith\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:52.861Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

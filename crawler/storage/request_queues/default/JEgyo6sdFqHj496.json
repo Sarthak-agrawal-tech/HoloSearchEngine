@@ -1,0 +1,9 @@
+{
+	"id": "JEgyo6sdFqHj496",
+	"json": "{\"id\":\"JEgyo6sdFqHj496\",\"url\":\"https://myanimelist.net/anime/136/Hunter_x_Hunter\",\"loadedUrl\":\"https://myanimelist.net/anime/136/Hunter_x_Hunter\",\"uniqueKey\":\"https://myanimelist.net/anime/136/Hunter_x_Hunter\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:49:04.636Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/136/Hunter_x_Hunter",
+	"url": "https://myanimelist.net/anime/136/Hunter_x_Hunter"
+}

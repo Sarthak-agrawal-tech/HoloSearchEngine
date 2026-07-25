@@ -1,9 +1,0 @@
-{
-	"id": "nFK7sOlrZ2mOrDF",
-	"json": "{\"id\":\"nFK7sOlrZ2mOrDF\",\"url\":\"https://myanimelist.net/character/131445/Gang_Boss\",\"loadedUrl\":\"https://myanimelist.net/character/131445/Gang_Boss\",\"uniqueKey\":\"https://myanimelist.net/character/131445/Gang_Boss\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:47.147Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/131445/Gang_Boss",
-	"url": "https://myanimelist.net/character/131445/Gang_Boss"
-}

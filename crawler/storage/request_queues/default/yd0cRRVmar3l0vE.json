@@ -1,6 +1,6 @@
 {
 	"id": "yd0cRRVmar3l0vE",
-	"json": "{\"id\":\"yd0cRRVmar3l0vE\",\"url\":\"https://myanimelist.net/character/131429/Annie\",\"loadedUrl\":\"https://myanimelist.net/character/131429/Annie\",\"uniqueKey\":\"https://myanimelist.net/character/131429/Annie\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:38.760Z\"}",
+	"json": "{\"id\":\"yd0cRRVmar3l0vE\",\"url\":\"https://myanimelist.net/character/131429/Annie\",\"loadedUrl\":\"https://myanimelist.net/character/131429/Annie\",\"uniqueKey\":\"https://myanimelist.net/character/131429/Annie\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-25T17:51:23.571Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

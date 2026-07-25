@@ -1,9 +1,0 @@
-{
-	"id": "13ffYXGctAOonXe",
-	"json": "{\"id\":\"13ffYXGctAOonXe\",\"url\":\"https://myanimelist.net/character/131460/Sneaky_Snake\",\"loadedUrl\":\"https://myanimelist.net/character/131460/Sneaky_Snake\",\"uniqueKey\":\"https://myanimelist.net/character/131460/Sneaky_Snake\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:01:08.049Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/131460/Sneaky_Snake",
-	"url": "https://myanimelist.net/character/131460/Sneaky_Snake"
-}

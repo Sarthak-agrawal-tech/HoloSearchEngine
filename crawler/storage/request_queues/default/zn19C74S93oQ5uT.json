@@ -1,9 +1,0 @@
-{
-	"id": "zn19C74S93oQ5uT",
-	"json": "{\"id\":\"zn19C74S93oQ5uT\",\"url\":\"https://myanimelist.net/anime/season/2010/spring\",\"loadedUrl\":\"https://myanimelist.net/anime/season/2010/spring\",\"uniqueKey\":\"https://myanimelist.net/anime/season/2010/spring\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:56.682Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/season/2010/spring",
-	"url": "https://myanimelist.net/anime/season/2010/spring"
-}

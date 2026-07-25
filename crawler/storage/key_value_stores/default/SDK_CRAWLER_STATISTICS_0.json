@@ -1,35 +1,37 @@
 {
-  "requestsFinished": 499,
+  "requestsFinished": 301,
   "requestsFailed": 0,
-  "requestsRetries": 2,
+  "requestsRetries": 1,
   "requestsFailedPerMinute": 0,
-  "requestsFinishedPerMinute": 73,
-  "requestMinDurationMillis": 374,
-  "requestMaxDurationMillis": 57300,
+  "requestsFinishedPerMinute": 43,
+  "requestMinDurationMillis": 431,
+  "requestMaxDurationMillis": 79053,
   "requestTotalFailedDurationMillis": 0,
-  "requestTotalFinishedDurationMillis": 630159,
-  "crawlerStartedAt": "2026-07-22T17:54:23.826Z",
-  "crawlerFinishedAt": "2026-07-22T18:01:12.436Z",
-  "statsPersistedAt": "2026-07-22T18:01:12.436Z",
-  "crawlerRuntimeMillis": 408701,
-  "crawlerLastStartTimestamp": 1784742863735,
+  "requestTotalFinishedDurationMillis": 620308,
+  "crawlerStartedAt": "2026-07-25T17:44:31.287Z",
+  "crawlerFinishedAt": "2026-07-25T17:51:28.667Z",
+  "statsPersistedAt": "2026-07-25T17:51:28.667Z",
+  "crawlerRuntimeMillis": 417615,
+  "crawlerLastStartTimestamp": 1785001471052,
   "requestRetryHistogram": [
-    497,
-    2
+    300,
+    1
   ],
   "statsId": 0,
   "requestAvgFailedDurationMillis": null,
-  "requestAvgFinishedDurationMillis": 1263,
-  "requestTotalDurationMillis": 630159,
-  "requestsTotal": 499,
-  "requestsWithStatusCode": {},
+  "requestAvgFinishedDurationMillis": 2061,
+  "requestTotalDurationMillis": 620308,
+  "requestsTotal": 301,
+  "requestsWithStatusCode": {
+    "404": 1
+  },
   "errors": {},
   "retryErrors": {
     "C:\\Users\\Lenovo\\Desktop\\SearchEngine\\HoloSearchEngine\\crawler\\node_modules\\@apify\\src\\index.ts:89:74": {
       "missing error code": {
         "Error": {
-          "_ timed out after 30 seconds.": {
-            "count": 2
+          "request timed out after 30 seconds.": {
+            "count": 1
           }
         }
       }

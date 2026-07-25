@@ -1,6 +1,6 @@
 {
 	"id": "2VFaZSSYquRrIjF",
-	"json": "{\"id\":\"2VFaZSSYquRrIjF\",\"url\":\"https://myanimelist.net/anime/season/1998/spring\",\"loadedUrl\":\"https://myanimelist.net/anime/season/1998/spring\",\"uniqueKey\":\"https://myanimelist.net/anime/season/1998/spring\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:54:44.411Z\"}",
+	"json": "{\"id\":\"2VFaZSSYquRrIjF\",\"url\":\"https://myanimelist.net/anime/season/1998/spring\",\"loadedUrl\":\"https://myanimelist.net/anime/season/1998/spring\",\"uniqueKey\":\"https://myanimelist.net/anime/season/1998/spring\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:45:58.153Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

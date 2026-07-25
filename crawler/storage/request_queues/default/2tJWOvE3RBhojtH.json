@@ -1,9 +1,0 @@
-{
-	"id": "2tJWOvE3RBhojtH",
-	"json": "{\"id\":\"2tJWOvE3RBhojtH\",\"url\":\"https://myanimelist.net/character/128842/Old_Man\",\"loadedUrl\":\"https://myanimelist.net/character/128842/Old_Man\",\"uniqueKey\":\"https://myanimelist.net/character/128842/Old_Man\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:58.942Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/128842/Old_Man",
-	"url": "https://myanimelist.net/character/128842/Old_Man"
-}

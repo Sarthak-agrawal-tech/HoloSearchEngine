@@ -1,6 +1,6 @@
 {
 	"id": "Wzj4wNfJIY9gqDj",
-	"json": "{\"id\":\"Wzj4wNfJIY9gqDj\",\"url\":\"https://myanimelist.net/character/71/L_Lawliet\",\"loadedUrl\":\"https://myanimelist.net/character/71/L_Lawliet\",\"uniqueKey\":\"https://myanimelist.net/character/71/L_Lawliet\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:49.746Z\"}",
+	"json": "{\"id\":\"Wzj4wNfJIY9gqDj\",\"url\":\"https://myanimelist.net/character/71/L_Lawliet\",\"loadedUrl\":\"https://myanimelist.net/character/71/L_Lawliet\",\"uniqueKey\":\"https://myanimelist.net/character/71/L_Lawliet\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:49:10.641Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

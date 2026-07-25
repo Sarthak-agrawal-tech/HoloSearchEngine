@@ -1,6 +1,6 @@
 {
 	"id": "BJChoZQHTXiUqJk",
-	"json": "{\"id\":\"BJChoZQHTXiUqJk\",\"url\":\"https://myanimelist.net/character/16/Edward_Wong_Hau_Pepelu_Tivrusky_IV\",\"loadedUrl\":\"https://myanimelist.net/character/16/Edward_Wong_Hau_Pepelu_Tivrusky_IV\",\"uniqueKey\":\"https://myanimelist.net/character/16/Edward_Wong_Hau_Pepelu_Tivrusky_IV\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:33.847Z\"}",
+	"json": "{\"id\":\"BJChoZQHTXiUqJk\",\"url\":\"https://myanimelist.net/character/16/Edward_Wong_Hau_Pepelu_Tivrusky_IV\",\"loadedUrl\":\"https://myanimelist.net/character/16/Edward_Wong_Hau_Pepelu_Tivrusky_IV\",\"uniqueKey\":\"https://myanimelist.net/character/16/Edward_Wong_Hau_Pepelu_Tivrusky_IV\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:06.292Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

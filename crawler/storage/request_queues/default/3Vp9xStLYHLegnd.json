@@ -1,9 +1,0 @@
-{
-	"id": "3Vp9xStLYHLegnd",
-	"json": "{\"id\":\"3Vp9xStLYHLegnd\",\"url\":\"https://myanimelist.net/character/1081/Ulquiorra_Cifer\",\"loadedUrl\":\"https://myanimelist.net/character/1081/Ulquiorra_Cifer\",\"uniqueKey\":\"https://myanimelist.net/character/1081/Ulquiorra_Cifer\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:56:53.280Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/1081/Ulquiorra_Cifer",
-	"url": "https://myanimelist.net/character/1081/Ulquiorra_Cifer"
-}

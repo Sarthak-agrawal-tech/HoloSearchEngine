@@ -1,6 +1,6 @@
 {
 	"id": "SQTyZuk606iGVNK",
-	"json": "{\"id\":\"SQTyZuk606iGVNK\",\"url\":\"https://myanimelist.net/character/45627/Levi\",\"loadedUrl\":\"https://myanimelist.net/character/45627/Levi\",\"uniqueKey\":\"https://myanimelist.net/character/45627/Levi\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:50.308Z\"}",
+	"json": "{\"id\":\"SQTyZuk606iGVNK\",\"url\":\"https://myanimelist.net/character/45627/Levi\",\"loadedUrl\":\"https://myanimelist.net/character/45627/Levi\",\"uniqueKey\":\"https://myanimelist.net/character/45627/Levi\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:51.933Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

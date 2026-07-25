@@ -1,9 +1,0 @@
-{
-	"id": "RNrK6lxGZGg7NPh",
-	"json": "{\"id\":\"RNrK6lxGZGg7NPh\",\"url\":\"https://myanimelist.net/anime/5189/Chou_Tokkyuu_Hikarian\",\"loadedUrl\":\"https://myanimelist.net/anime/5189/Chou_Tokkyuu_Hikarian\",\"uniqueKey\":\"https://myanimelist.net/anime/5189/Chou_Tokkyuu_Hikarian\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:53.107Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/5189/Chou_Tokkyuu_Hikarian",
-	"url": "https://myanimelist.net/anime/5189/Chou_Tokkyuu_Hikarian"
-}

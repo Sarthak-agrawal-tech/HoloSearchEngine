@@ -1,9 +1,0 @@
-{
-	"id": "Zg1OxNRJQJPteC3",
-	"json": "{\"id\":\"Zg1OxNRJQJPteC3\",\"url\":\"https://myanimelist.net/anime/9768/Shima_Shima_Tora_no_Shimajirou\",\"loadedUrl\":\"https://myanimelist.net/anime/9768/Shima_Shima_Tora_no_Shimajirou\",\"uniqueKey\":\"https://myanimelist.net/anime/9768/Shima_Shima_Tora_no_Shimajirou\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:52.325Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/9768/Shima_Shima_Tora_no_Shimajirou",
-	"url": "https://myanimelist.net/anime/9768/Shima_Shima_Tora_no_Shimajirou"
-}

@@ -1,6 +1,6 @@
 {
 	"id": "qkt5XpwNWGczg66",
-	"json": "{\"id\":\"qkt5XpwNWGczg66\",\"url\":\"https://myanimelist.net/anime/2288/Akihabara_Dennou-gumi\",\"loadedUrl\":\"https://myanimelist.net/anime/2288/Akihabara_Dennou-gumi\",\"uniqueKey\":\"https://myanimelist.net/anime/2288/Akihabara_Dennou-gumi\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:26.076Z\"}",
+	"json": "{\"id\":\"qkt5XpwNWGczg66\",\"url\":\"https://myanimelist.net/anime/2288/Akihabara_Dennou-gumi\",\"loadedUrl\":\"https://myanimelist.net/anime/2288/Akihabara_Dennou-gumi\",\"uniqueKey\":\"https://myanimelist.net/anime/2288/Akihabara_Dennou-gumi\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-25T17:51:22.267Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

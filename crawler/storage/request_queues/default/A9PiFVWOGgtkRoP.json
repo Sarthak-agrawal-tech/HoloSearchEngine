@@ -1,6 +1,6 @@
 {
 	"id": "A9PiFVWOGgtkRoP",
-	"json": "{\"id\":\"A9PiFVWOGgtkRoP\",\"url\":\"https://myanimelist.net/anime/918/Gintama\",\"loadedUrl\":\"https://myanimelist.net/anime/918/Gintama\",\"uniqueKey\":\"https://myanimelist.net/anime/918/Gintama\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:18.547Z\"}",
+	"json": "{\"id\":\"A9PiFVWOGgtkRoP\",\"url\":\"https://myanimelist.net/anime/918/Gintama\",\"loadedUrl\":\"https://myanimelist.net/anime/918/Gintama\",\"uniqueKey\":\"https://myanimelist.net/anime/918/Gintama\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:50:56.651Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

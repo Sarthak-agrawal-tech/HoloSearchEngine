@@ -1,0 +1,9 @@
+{
+	"id": "TJgx2HC4PgAO8yS",
+	"json": "{\"id\":\"TJgx2HC4PgAO8yS\",\"url\":\"https://myanimelist.net/anime/34096/Gintama\",\"loadedUrl\":\"https://myanimelist.net/anime/34096/Gintama\",\"uniqueKey\":\"https://myanimelist.net/anime/34096/Gintama\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:49:16.133Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/34096/Gintama",
+	"url": "https://myanimelist.net/anime/34096/Gintama"
+}

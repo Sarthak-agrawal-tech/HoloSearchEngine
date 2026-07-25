@@ -1,9 +1,0 @@
-{
-	"id": "0LiyRdJxa88Tak5",
-	"json": "{\"id\":\"0LiyRdJxa88Tak5\",\"url\":\"https://myanimelist.net/character/131449/George\",\"loadedUrl\":\"https://myanimelist.net/character/131449/George\",\"uniqueKey\":\"https://myanimelist.net/character/131449/George\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:47.594Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/131449/George",
-	"url": "https://myanimelist.net/character/131449/George"
-}

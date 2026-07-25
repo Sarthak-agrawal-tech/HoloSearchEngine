@@ -1,9 +1,0 @@
-{
-	"id": "P1sQkqbGM3IrofC",
-	"json": "{\"id\":\"P1sQkqbGM3IrofC\",\"url\":\"https://myanimelist.net/anime/59822/Star_Wars_x_One_Piece\",\"loadedUrl\":\"https://myanimelist.net/anime/59822/Star_Wars_x_One_Piece\",\"uniqueKey\":\"https://myanimelist.net/anime/59822/Star_Wars_x_One_Piece\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:35.326Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/59822/Star_Wars_x_One_Piece",
-	"url": "https://myanimelist.net/anime/59822/Star_Wars_x_One_Piece"
-}

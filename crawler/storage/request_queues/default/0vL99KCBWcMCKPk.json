@@ -1,9 +1,0 @@
-{
-	"id": "0vL99KCBWcMCKPk",
-	"json": "{\"id\":\"0vL99KCBWcMCKPk\",\"url\":\"https://myanimelist.net/anime/40970/A-ra-shi__Reborn\",\"loadedUrl\":\"https://myanimelist.net/anime/40970/A-ra-shi__Reborn\",\"uniqueKey\":\"https://myanimelist.net/anime/40970/A-ra-shi__Reborn\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:37.968Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/40970/A-ra-shi__Reborn",
-	"url": "https://myanimelist.net/anime/40970/A-ra-shi__Reborn"
-}

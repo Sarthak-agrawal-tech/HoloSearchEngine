@@ -1,0 +1,9 @@
+{
+	"id": "cy9Eg9X6zcSujnR",
+	"json": "{\"id\":\"cy9Eg9X6zcSujnR\",\"url\":\"https://myanimelist.net/anime/season/2023/fall\",\"loadedUrl\":\"https://myanimelist.net/anime/season/2023/fall\",\"uniqueKey\":\"https://myanimelist.net/anime/season/2023/fall\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:50:21.629Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/season/2023/fall",
+	"url": "https://myanimelist.net/anime/season/2023/fall"
+}

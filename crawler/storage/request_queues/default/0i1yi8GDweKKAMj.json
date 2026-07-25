@@ -1,6 +1,6 @@
 {
 	"id": "0i1yi8GDweKKAMj",
-	"json": "{\"id\":\"0i1yi8GDweKKAMj\",\"url\":\"https://myanimelist.net/character/4/Ein\",\"loadedUrl\":\"https://myanimelist.net/character/4/Ein\",\"uniqueKey\":\"https://myanimelist.net/character/4/Ein\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:36.265Z\"}",
+	"json": "{\"id\":\"0i1yi8GDweKKAMj\",\"url\":\"https://myanimelist.net/character/4/Ein\",\"loadedUrl\":\"https://myanimelist.net/character/4/Ein\",\"uniqueKey\":\"https://myanimelist.net/character/4/Ein\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:06.974Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

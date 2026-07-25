@@ -1,9 +1,0 @@
-{
-	"id": "5txOAZRNljjP7IL",
-	"json": "{\"id\":\"5txOAZRNljjP7IL\",\"url\":\"https://myanimelist.net/anime/6130/Marie___Gali\",\"loadedUrl\":\"https://myanimelist.net/anime/6130/Marie___Gali\",\"uniqueKey\":\"https://myanimelist.net/anime/6130/Marie___Gali\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:12.002Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/6130/Marie___Gali",
-	"url": "https://myanimelist.net/anime/6130/Marie___Gali"
-}

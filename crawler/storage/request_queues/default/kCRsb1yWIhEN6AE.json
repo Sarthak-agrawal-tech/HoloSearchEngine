@@ -1,9 +1,0 @@
-{
-	"id": "kCRsb1yWIhEN6AE",
-	"json": "{\"id\":\"kCRsb1yWIhEN6AE\",\"url\":\"https://myanimelist.net/anime/34165/Oishi-sa_Hajikeru_One_Piece\",\"loadedUrl\":\"https://myanimelist.net/anime/34165/Oishi-sa_Hajikeru_One_Piece\",\"uniqueKey\":\"https://myanimelist.net/anime/34165/Oishi-sa_Hajikeru_One_Piece\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:36.284Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/34165/Oishi-sa_Hajikeru_One_Piece",
-	"url": "https://myanimelist.net/anime/34165/Oishi-sa_Hajikeru_One_Piece"
-}

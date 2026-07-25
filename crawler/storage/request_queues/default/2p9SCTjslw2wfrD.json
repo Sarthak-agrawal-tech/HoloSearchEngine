@@ -1,9 +1,0 @@
-{
-	"id": "2p9SCTjslw2wfrD",
-	"json": "{\"id\":\"2p9SCTjslw2wfrD\",\"url\":\"https://myanimelist.net/character/131461/Love_Machine\",\"loadedUrl\":\"https://myanimelist.net/character/131461/Love_Machine\",\"uniqueKey\":\"https://myanimelist.net/character/131461/Love_Machine\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:54.595Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/131461/Love_Machine",
-	"url": "https://myanimelist.net/character/131461/Love_Machine"
-}

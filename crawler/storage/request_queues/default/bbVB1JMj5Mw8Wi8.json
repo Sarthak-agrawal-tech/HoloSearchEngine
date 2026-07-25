@@ -1,9 +1,0 @@
-{
-	"id": "bbVB1JMj5Mw8Wi8",
-	"json": "{\"id\":\"bbVB1JMj5Mw8Wi8\",\"url\":\"https://myanimelist.net/character/79667/Pet_Store_Owner\",\"loadedUrl\":\"https://myanimelist.net/character/79667/Pet_Store_Owner\",\"uniqueKey\":\"https://myanimelist.net/character/79667/Pet_Store_Owner\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:01:00.307Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/79667/Pet_Store_Owner",
-	"url": "https://myanimelist.net/character/79667/Pet_Store_Owner"
-}

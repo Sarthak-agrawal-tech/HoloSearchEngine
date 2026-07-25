@@ -1,9 +1,0 @@
-{
-	"id": "GPyxT0OkdCqIAUD",
-	"json": "{\"id\":\"GPyxT0OkdCqIAUD\",\"url\":\"https://myanimelist.net/anime/53880/One_Piece_The_Planetarium\",\"loadedUrl\":\"https://myanimelist.net/anime/53880/One_Piece_The_Planetarium\",\"uniqueKey\":\"https://myanimelist.net/anime/53880/One_Piece_The_Planetarium\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:12.542Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/53880/One_Piece_The_Planetarium",
-	"url": "https://myanimelist.net/anime/53880/One_Piece_The_Planetarium"
-}

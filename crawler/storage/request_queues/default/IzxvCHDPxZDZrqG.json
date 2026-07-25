@@ -1,9 +1,0 @@
-{
-	"id": "IzxvCHDPxZDZrqG",
-	"json": "{\"id\":\"IzxvCHDPxZDZrqG\",\"url\":\"https://myanimelist.net/anime/5028/Major_S5\",\"loadedUrl\":\"https://myanimelist.net/anime/5028/Major_S5\",\"uniqueKey\":\"https://myanimelist.net/anime/5028/Major_S5\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:23.810Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/5028/Major_S5",
-	"url": "https://myanimelist.net/anime/5028/Major_S5"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "KIQJSaZ4nc1i7zh",
-	"json": "{\"id\":\"KIQJSaZ4nc1i7zh\",\"url\":\"https://myanimelist.net/anime/1761/Golgo_13__Queen_Bee\",\"loadedUrl\":\"https://myanimelist.net/anime/1761/Golgo_13__Queen_Bee\",\"uniqueKey\":\"https://myanimelist.net/anime/1761/Golgo_13__Queen_Bee\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:59.142Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/1761/Golgo_13__Queen_Bee",
-	"url": "https://myanimelist.net/anime/1761/Golgo_13__Queen_Bee"
-}

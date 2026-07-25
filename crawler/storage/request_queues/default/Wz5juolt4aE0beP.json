@@ -1,6 +1,6 @@
 {
 	"id": "Wz5juolt4aE0beP",
-	"json": "{\"id\":\"Wz5juolt4aE0beP\",\"url\":\"https://myanimelist.net/character/5/Ichigo_Kurosaki\",\"loadedUrl\":\"https://myanimelist.net/character/5/Ichigo_Kurosaki\",\"uniqueKey\":\"https://myanimelist.net/character/5/Ichigo_Kurosaki\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:56:47.126Z\"}",
+	"json": "{\"id\":\"Wz5juolt4aE0beP\",\"url\":\"https://myanimelist.net/character/5/Ichigo_Kurosaki\",\"loadedUrl\":\"https://myanimelist.net/character/5/Ichigo_Kurosaki\",\"uniqueKey\":\"https://myanimelist.net/character/5/Ichigo_Kurosaki\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:48:44.156Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

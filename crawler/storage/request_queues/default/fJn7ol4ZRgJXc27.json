@@ -1,6 +1,6 @@
 {
 	"id": "fJn7ol4ZRgJXc27",
-	"json": "{\"id\":\"fJn7ol4ZRgJXc27\",\"url\":\"https://myanimelist.net/anime/1163/Neo_Ranga\",\"loadedUrl\":\"https://myanimelist.net/anime/1163/Neo_Ranga\",\"uniqueKey\":\"https://myanimelist.net/anime/1163/Neo_Ranga\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:19.210Z\"}",
+	"json": "{\"id\":\"fJn7ol4ZRgJXc27\",\"url\":\"https://myanimelist.net/anime/1163/Neo_Ranga\",\"loadedUrl\":\"https://myanimelist.net/anime/1163/Neo_Ranga\",\"uniqueKey\":\"https://myanimelist.net/anime/1163/Neo_Ranga\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-25T17:51:17.379Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

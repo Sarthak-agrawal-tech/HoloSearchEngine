@@ -1,9 +1,0 @@
-{
-	"id": "BL1Jm2bjXxUXpfx",
-	"json": "{\"id\":\"BL1Jm2bjXxUXpfx\",\"url\":\"https://myanimelist.net/anime/6033/Dragon_Ball_Kai\",\"loadedUrl\":\"https://myanimelist.net/anime/6033/Dragon_Ball_Kai\",\"uniqueKey\":\"https://myanimelist.net/anime/6033/Dragon_Ball_Kai\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:58.962Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/6033/Dragon_Ball_Kai",
-	"url": "https://myanimelist.net/anime/6033/Dragon_Ball_Kai"
-}

@@ -1,6 +1,6 @@
 {
 	"id": "en9Lci9hp4j4il8",
-	"json": "{\"id\":\"en9Lci9hp4j4il8\",\"url\":\"https://myanimelist.net/character/2/Faye_Valentine\",\"loadedUrl\":\"https://myanimelist.net/character/2/Faye_Valentine\",\"uniqueKey\":\"https://myanimelist.net/character/2/Faye_Valentine\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:32.064Z\"}",
+	"json": "{\"id\":\"en9Lci9hp4j4il8\",\"url\":\"https://myanimelist.net/character/2/Faye_Valentine\",\"loadedUrl\":\"https://myanimelist.net/character/2/Faye_Valentine\",\"uniqueKey\":\"https://myanimelist.net/character/2/Faye_Valentine\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:06.066Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

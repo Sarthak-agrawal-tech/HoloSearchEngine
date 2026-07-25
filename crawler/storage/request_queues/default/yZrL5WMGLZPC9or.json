@@ -1,9 +1,0 @@
-{
-	"id": "yZrL5WMGLZPC9or",
-	"json": "{\"id\":\"yZrL5WMGLZPC9or\",\"url\":\"https://myanimelist.net/anime/966/Crayon_Shin-chan\",\"loadedUrl\":\"https://myanimelist.net/anime/966/Crayon_Shin-chan\",\"uniqueKey\":\"https://myanimelist.net/anime/966/Crayon_Shin-chan\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:39.500Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/966/Crayon_Shin-chan",
-	"url": "https://myanimelist.net/anime/966/Crayon_Shin-chan"
-}

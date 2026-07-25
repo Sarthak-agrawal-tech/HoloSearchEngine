@@ -1,6 +1,6 @@
 {
 	"id": "RBxDlerLpuyQBIY",
-	"json": "{\"id\":\"RBxDlerLpuyQBIY\",\"url\":\"https://myanimelist.net/anime/1/Cowboy_Bebop\",\"loadedUrl\":\"https://myanimelist.net/anime/1/Cowboy_Bebop\",\"uniqueKey\":\"https://myanimelist.net/anime/1/Cowboy_Bebop\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-07-22T17:54:27.909Z\"}",
+	"json": "{\"id\":\"RBxDlerLpuyQBIY\",\"url\":\"https://myanimelist.net/anime/1/Cowboy_Bebop\",\"loadedUrl\":\"https://myanimelist.net/anime/1/Cowboy_Bebop\",\"uniqueKey\":\"https://myanimelist.net/anime/1/Cowboy_Bebop\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-07-25T17:44:49.541Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

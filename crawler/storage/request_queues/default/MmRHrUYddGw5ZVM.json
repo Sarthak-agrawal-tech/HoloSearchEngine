@@ -1,0 +1,9 @@
+{
+	"id": "MmRHrUYddGw5ZVM",
+	"json": "{\"id\":\"MmRHrUYddGw5ZVM\",\"url\":\"https://myanimelist.net/anime/55701/Kimetsu_no_Yaiba__Hashira_Geiko-hen\",\"loadedUrl\":\"https://myanimelist.net/anime/55701/Kimetsu_no_Yaiba__Hashira_Geiko-hen\",\"uniqueKey\":\"https://myanimelist.net/anime/55701/Kimetsu_no_Yaiba__Hashira_Geiko-hen\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:49:50.153Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/55701/Kimetsu_no_Yaiba__Hashira_Geiko-hen",
+	"url": "https://myanimelist.net/anime/55701/Kimetsu_no_Yaiba__Hashira_Geiko-hen"
+}

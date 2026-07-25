@@ -1,9 +1,0 @@
-{
-	"id": "lPwfEY1btIIqeH4",
-	"json": "{\"id\":\"lPwfEY1btIIqeH4\",\"url\":\"https://myanimelist.net/character/131462/Spider_Mike_\",\"loadedUrl\":\"https://myanimelist.net/character/131462/Spider_Mike_\",\"uniqueKey\":\"https://myanimelist.net/character/131462/Spider_Mike_\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:01:09.618Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/131462/Spider_Mike_",
-	"url": "https://myanimelist.net/character/131462/Spider_Mike_"
-}

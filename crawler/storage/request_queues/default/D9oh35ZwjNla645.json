@@ -1,6 +1,6 @@
 {
 	"id": "D9oh35ZwjNla645",
-	"json": "{\"id\":\"D9oh35ZwjNla645\",\"url\":\"https://myanimelist.net/character/351/Greed\",\"loadedUrl\":\"https://myanimelist.net/character/351/Greed\",\"uniqueKey\":\"https://myanimelist.net/character/351/Greed\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:40.035Z\"}",
+	"json": "{\"id\":\"D9oh35ZwjNla645\",\"url\":\"https://myanimelist.net/character/351/Greed\",\"loadedUrl\":\"https://myanimelist.net/character/351/Greed\",\"uniqueKey\":\"https://myanimelist.net/character/351/Greed\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:32.745Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

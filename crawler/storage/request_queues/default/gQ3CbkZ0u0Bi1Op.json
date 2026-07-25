@@ -1,9 +1,0 @@
-{
-	"id": "gQ3CbkZ0u0Bi1Op",
-	"json": "{\"id\":\"gQ3CbkZ0u0Bi1Op\",\"url\":\"https://myanimelist.net/character/131448/Gordon\",\"loadedUrl\":\"https://myanimelist.net/character/131448/Gordon\",\"uniqueKey\":\"https://myanimelist.net/character/131448/Gordon\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:48.001Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/131448/Gordon",
-	"url": "https://myanimelist.net/character/131448/Gordon"
-}

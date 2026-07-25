@@ -1,9 +1,0 @@
-{
-	"id": "fdkIDuURnK39qJT",
-	"json": "{\"id\":\"fdkIDuURnK39qJT\",\"url\":\"https://myanimelist.net/anime/5258/Hajime_no_Ippo__New_Challenger\",\"loadedUrl\":\"https://myanimelist.net/anime/5258/Hajime_no_Ippo__New_Challenger\",\"uniqueKey\":\"https://myanimelist.net/anime/5258/Hajime_no_Ippo__New_Challenger\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:19.411Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/5258/Hajime_no_Ippo__New_Challenger",
-	"url": "https://myanimelist.net/anime/5258/Hajime_no_Ippo__New_Challenger"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "QLtEIKApoTRo7HH",
-	"json": "{\"id\":\"QLtEIKApoTRo7HH\",\"url\":\"https://myanimelist.net/anime/5941/Cross_Game\",\"loadedUrl\":\"https://myanimelist.net/anime/5941/Cross_Game\",\"uniqueKey\":\"https://myanimelist.net/anime/5941/Cross_Game\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:01.592Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/5941/Cross_Game",
-	"url": "https://myanimelist.net/anime/5941/Cross_Game"
-}

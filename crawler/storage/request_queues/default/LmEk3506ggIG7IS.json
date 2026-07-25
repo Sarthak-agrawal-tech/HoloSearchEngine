@@ -1,9 +1,0 @@
-{
-	"id": "LmEk3506ggIG7IS",
-	"json": "{\"id\":\"LmEk3506ggIG7IS\",\"url\":\"https://myanimelist.net/anime/62233/One_Piece__Heroines\",\"loadedUrl\":\"https://myanimelist.net/anime/62233/One_Piece__Heroines\",\"uniqueKey\":\"https://myanimelist.net/anime/62233/One_Piece__Heroines\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:17.809Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/62233/One_Piece__Heroines",
-	"url": "https://myanimelist.net/anime/62233/One_Piece__Heroines"
-}

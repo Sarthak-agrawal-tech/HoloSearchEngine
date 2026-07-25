@@ -1,9 +1,0 @@
-{
-	"id": "nLbJcfMOAAEmpVM",
-	"json": "{\"id\":\"nLbJcfMOAAEmpVM\",\"url\":\"https://myanimelist.net/anime/32051/One_Piece__Adventure_of_Nebulandia\",\"loadedUrl\":\"https://myanimelist.net/anime/32051/One_Piece__Adventure_of_Nebulandia\",\"uniqueKey\":\"https://myanimelist.net/anime/32051/One_Piece__Adventure_of_Nebulandia\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:14.598Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/32051/One_Piece__Adventure_of_Nebulandia",
-	"url": "https://myanimelist.net/anime/32051/One_Piece__Adventure_of_Nebulandia"
-}

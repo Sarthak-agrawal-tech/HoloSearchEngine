@@ -1,6 +1,6 @@
 {
 	"id": "JUQ5KdeIaimMjG4",
-	"json": "{\"id\":\"JUQ5KdeIaimMjG4\",\"url\":\"https://myanimelist.net/anime/season/1998/winter\",\"loadedUrl\":\"https://myanimelist.net/anime/season/1998/winter\",\"uniqueKey\":\"https://myanimelist.net/anime/season/1998/winter\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:01.741Z\"}",
+	"json": "{\"id\":\"JUQ5KdeIaimMjG4\",\"url\":\"https://myanimelist.net/anime/season/1998/winter\",\"loadedUrl\":\"https://myanimelist.net/anime/season/1998/winter\",\"uniqueKey\":\"https://myanimelist.net/anime/season/1998/winter\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-25T17:51:08.941Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

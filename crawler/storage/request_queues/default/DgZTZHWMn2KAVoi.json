@@ -1,6 +1,6 @@
 {
 	"id": "DgZTZHWMn2KAVoi",
-	"json": "{\"id\":\"DgZTZHWMn2KAVoi\",\"url\":\"https://myanimelist.net/character/137299/Angel\",\"loadedUrl\":\"https://myanimelist.net/character/137299/Angel\",\"uniqueKey\":\"https://myanimelist.net/character/137299/Angel\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:38.873Z\"}",
+	"json": "{\"id\":\"DgZTZHWMn2KAVoi\",\"url\":\"https://myanimelist.net/character/137299/Angel\",\"loadedUrl\":\"https://myanimelist.net/character/137299/Angel\",\"uniqueKey\":\"https://myanimelist.net/character/137299/Angel\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-25T17:51:23.357Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

@@ -1,9 +1,0 @@
-{
-	"id": "hGdi9hDOKPu1OHp",
-	"json": "{\"id\":\"hGdi9hDOKPu1OHp\",\"url\":\"https://myanimelist.net/character/19118/Laughing_Bull\",\"loadedUrl\":\"https://myanimelist.net/character/19118/Laughing_Bull\",\"uniqueKey\":\"https://myanimelist.net/character/19118/Laughing_Bull\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:52.410Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/19118/Laughing_Bull",
-	"url": "https://myanimelist.net/character/19118/Laughing_Bull"
-}

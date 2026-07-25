@@ -1,9 +1,0 @@
-{
-	"id": "utImtI6NkRhdEfw",
-	"json": "{\"id\":\"utImtI6NkRhdEfw\",\"url\":\"https://myanimelist.net/anime/3975/Uchi_no_3_Shimai\",\"loadedUrl\":\"https://myanimelist.net/anime/3975/Uchi_no_3_Shimai\",\"uniqueKey\":\"https://myanimelist.net/anime/3975/Uchi_no_3_Shimai\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:31.070Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/3975/Uchi_no_3_Shimai",
-	"url": "https://myanimelist.net/anime/3975/Uchi_no_3_Shimai"
-}

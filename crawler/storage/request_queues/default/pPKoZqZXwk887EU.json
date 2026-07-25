@@ -1,0 +1,9 @@
+{
+	"id": "pPKoZqZXwk887EU",
+	"json": "{\"id\":\"pPKoZqZXwk887EU\",\"url\":\"https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011/characters\",\"loadedUrl\":\"https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011/characters\",\"uniqueKey\":\"https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011/characters\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:49:01.807Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011/characters",
+	"url": "https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011/characters"
+}

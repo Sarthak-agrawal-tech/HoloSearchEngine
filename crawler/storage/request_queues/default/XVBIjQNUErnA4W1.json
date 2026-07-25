@@ -1,6 +1,6 @@
 {
 	"id": "XVBIjQNUErnA4W1",
-	"json": "{\"id\":\"XVBIjQNUErnA4W1\",\"url\":\"https://myanimelist.net/anime/269/Bleach/characters\",\"loadedUrl\":\"https://myanimelist.net/anime/269/Bleach/characters\",\"uniqueKey\":\"https://myanimelist.net/anime/269/Bleach/characters\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:56:32.211Z\"}",
+	"json": "{\"id\":\"XVBIjQNUErnA4W1\",\"url\":\"https://myanimelist.net/anime/269/Bleach/characters\",\"loadedUrl\":\"https://myanimelist.net/anime/269/Bleach/characters\",\"uniqueKey\":\"https://myanimelist.net/anime/269/Bleach/characters\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:48:34.758Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

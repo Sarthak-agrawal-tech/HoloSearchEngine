@@ -1,9 +1,0 @@
-{
-	"id": "qDjYQkuiARg1DGk",
-	"json": "{\"id\":\"qDjYQkuiARg1DGk\",\"url\":\"https://myanimelist.net/anime/56015/Miraijima\",\"loadedUrl\":\"https://myanimelist.net/anime/56015/Miraijima\",\"uniqueKey\":\"https://myanimelist.net/anime/56015/Miraijima\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:38.804Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/56015/Miraijima",
-	"url": "https://myanimelist.net/anime/56015/Miraijima"
-}

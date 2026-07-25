@@ -1,6 +1,6 @@
 {
 	"id": "JmA20RuqJeFelMx",
-	"json": "{\"id\":\"JmA20RuqJeFelMx\",\"url\":\"https://myanimelist.net/character/2734/Vicious\",\"loadedUrl\":\"https://myanimelist.net/character/2734/Vicious\",\"uniqueKey\":\"https://myanimelist.net/character/2734/Vicious\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:37.035Z\"}",
+	"json": "{\"id\":\"JmA20RuqJeFelMx\",\"url\":\"https://myanimelist.net/character/2734/Vicious\",\"loadedUrl\":\"https://myanimelist.net/character/2734/Vicious\",\"uniqueKey\":\"https://myanimelist.net/character/2734/Vicious\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:08.299Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

@@ -1,8 +1,8 @@
 {
 	"id": "FG432jlh5elpCLO",
-	"json": "{\"id\":\"FG432jlh5elpCLO\",\"url\":\"https://myanimelist.net/anime/810/Android_Ana_Maico_2010\",\"loadedUrl\":\"https://myanimelist.net/anime/810/Android_Ana_Maico_2010\",\"uniqueKey\":\"https://myanimelist.net/anime/810/Android_Ana_Maico_2010\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:27.493Z\"}",
+	"json": "{\"id\":\"FG432jlh5elpCLO\",\"url\":\"https://myanimelist.net/anime/810/Android_Ana_Maico_2010\",\"uniqueKey\":\"https://myanimelist.net/anime/810/Android_Ana_Maico_2010\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2}}}",
 	"method": "GET",
-	"orderNo": null,
+	"orderNo": 1785002062272,
 	"retryCount": 0,
 	"uniqueKey": "https://myanimelist.net/anime/810/Android_Ana_Maico_2010",
 	"url": "https://myanimelist.net/anime/810/Android_Ana_Maico_2010"

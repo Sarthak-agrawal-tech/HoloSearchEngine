@@ -1,6 +1,6 @@
 {
 	"id": "5eDnwS2HvrHXOos",
-	"json": "{\"id\":\"5eDnwS2HvrHXOos\",\"url\":\"https://myanimelist.net/character/6/Rukia_Kuchiki\",\"loadedUrl\":\"https://myanimelist.net/character/6/Rukia_Kuchiki\",\"uniqueKey\":\"https://myanimelist.net/character/6/Rukia_Kuchiki\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:56:47.789Z\"}",
+	"json": "{\"id\":\"5eDnwS2HvrHXOos\",\"url\":\"https://myanimelist.net/character/6/Rukia_Kuchiki\",\"loadedUrl\":\"https://myanimelist.net/character/6/Rukia_Kuchiki\",\"uniqueKey\":\"https://myanimelist.net/character/6/Rukia_Kuchiki\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:48:44.004Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

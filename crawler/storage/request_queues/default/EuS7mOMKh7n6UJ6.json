@@ -1,6 +1,6 @@
 {
 	"id": "EuS7mOMKh7n6UJ6",
-	"json": "{\"id\":\"EuS7mOMKh7n6UJ6\",\"url\":\"https://myanimelist.net/character/12/Alphonse_Elric\",\"loadedUrl\":\"https://myanimelist.net/character/12/Alphonse_Elric\",\"uniqueKey\":\"https://myanimelist.net/character/12/Alphonse_Elric\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:37.300Z\"}",
+	"json": "{\"id\":\"EuS7mOMKh7n6UJ6\",\"url\":\"https://myanimelist.net/character/12/Alphonse_Elric\",\"loadedUrl\":\"https://myanimelist.net/character/12/Alphonse_Elric\",\"uniqueKey\":\"https://myanimelist.net/character/12/Alphonse_Elric\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:30.794Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

@@ -19,11 +19,25 @@ interface PageResult {
 }
 
 const SEED_URLS = [
-    'https://myanimelist.net/anime/1/Cowboy_Bebop',
-    'https://myanimelist.net/anime/5114/Fullmetal_Alchemist_Brotherhood',
-    'https://myanimelist.net/anime/16498/Shingeki_no_Kyojin',
-    'https://myanimelist.net/anime/21/One_Piece',
-    'https://myanimelist.net/anime/269/Bleach',
+     // Individual popular anime (guaranteed coverage)
+  'https://myanimelist.net/anime/1/Cowboy_Bebop',
+  'https://myanimelist.net/anime/5114/Fullmetal_Alchemist_Brotherhood',
+  'https://myanimelist.net/anime/16498/Shingeki_no_Kyojin',
+  'https://myanimelist.net/anime/21/One_Piece',
+  'https://myanimelist.net/anime/269/Bleach',
+  'https://myanimelist.net/anime/30276/One_Punch_Man',
+  'https://myanimelist.net/anime/11061/Hunter_x_Hunter',
+  'https://myanimelist.net/anime/28977/Gintama',
+
+  // Hub pages — each links to 40+ popular anime
+  'https://myanimelist.net/anime/season/2024/spring',
+  'https://myanimelist.net/anime/season/2024/summer',
+  'https://myanimelist.net/anime/season/2024/fall',
+  'https://myanimelist.net/anime/season/2025/winter',
+  'https://myanimelist.net/anime/upcoming',
+
+  // Top-rated list — another high-value hub
+  'https://myanimelist.net/topanime.php',
 ]
 
 const OUTPUT_PATH = path.resolve(
@@ -53,7 +67,7 @@ const crawler = new CheerioCrawler({
                 // 5. Matches the upcoming anime index
                 /^https:\/\/myanimelist\.net\/anime\/upcoming(?:\/|$)/
                     ],
-            limit: 100,
+            limit: 20,
         })
         const html = body.toString();
         const dom = new JSDOM(html, { url: request.url })
@@ -82,7 +96,7 @@ const crawler = new CheerioCrawler({
         console.error(`[FAIL] ${request.url} - ${request.errorMessages ?? 'Unknown error'}`)
     },
 
-    maxRequestsPerCrawl: 500,
+    maxRequestsPerCrawl: 300,
     maxConcurrency: 2,
     requestHandlerTimeoutSecs: 30,
 });

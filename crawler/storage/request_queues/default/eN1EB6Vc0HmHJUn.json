@@ -1,6 +1,6 @@
 {
 	"id": "eN1EB6Vc0HmHJUn",
-	"json": "{\"id\":\"eN1EB6Vc0HmHJUn\",\"url\":\"https://myanimelist.net/anime/season/2009/spring\",\"loadedUrl\":\"https://myanimelist.net/anime/season/2009/spring\",\"uniqueKey\":\"https://myanimelist.net/anime/season/2009/spring\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:54:54.401Z\"}",
+	"json": "{\"id\":\"eN1EB6Vc0HmHJUn\",\"url\":\"https://myanimelist.net/anime/season/2009/spring\",\"loadedUrl\":\"https://myanimelist.net/anime/season/2009/spring\",\"uniqueKey\":\"https://myanimelist.net/anime/season/2009/spring\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:16.159Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

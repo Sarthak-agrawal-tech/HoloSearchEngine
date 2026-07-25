@@ -1,9 +1,0 @@
-{
-	"id": "d1wEtQ0LwyLu1sb",
-	"json": "{\"id\":\"d1wEtQ0LwyLu1sb\",\"url\":\"https://myanimelist.net/character/131472/Hospice_Guard_\",\"loadedUrl\":\"https://myanimelist.net/character/131472/Hospice_Guard_\",\"uniqueKey\":\"https://myanimelist.net/character/131472/Hospice_Guard_\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:50.116Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/131472/Hospice_Guard_",
-	"url": "https://myanimelist.net/character/131472/Hospice_Guard_"
-}

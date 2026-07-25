@@ -1,9 +1,0 @@
-{
-	"id": "1RMUdVnOYWtIfws",
-	"json": "{\"id\":\"1RMUdVnOYWtIfws\",\"url\":\"https://myanimelist.net/anime/36215/One_Piece__Episode_of_East_Blue_-_Luffy_to_4-nin_no_Nakama_no_Daibouken\",\"loadedUrl\":\"https://myanimelist.net/anime/36215/One_Piece__Episode_of_East_Blue_-_Luffy_to_4-nin_no_Nakama_no_Daibouken\",\"uniqueKey\":\"https://myanimelist.net/anime/36215/One_Piece__Episode_of_East_Blue_-_Luffy_to_4-nin_no_Nakama_no_Daibouken\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:21.800Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/36215/One_Piece__Episode_of_East_Blue_-_Luffy_to_4-nin_no_Nakama_no_Daibouken",
-	"url": "https://myanimelist.net/anime/36215/One_Piece__Episode_of_East_Blue_-_Luffy_to_4-nin_no_Nakama_no_Daibouken"
-}

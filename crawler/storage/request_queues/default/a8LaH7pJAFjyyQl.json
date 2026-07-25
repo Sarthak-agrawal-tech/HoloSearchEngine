@@ -1,9 +1,0 @@
-{
-	"id": "a8LaH7pJAFjyyQl",
-	"json": "{\"id\":\"a8LaH7pJAFjyyQl\",\"url\":\"https://myanimelist.net/anime/4192/Hayate_no_Gotoku\",\"loadedUrl\":\"https://myanimelist.net/anime/4192/Hayate_no_Gotoku\",\"uniqueKey\":\"https://myanimelist.net/anime/4192/Hayate_no_Gotoku\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:01.755Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/4192/Hayate_no_Gotoku",
-	"url": "https://myanimelist.net/anime/4192/Hayate_no_Gotoku"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "oPiJxDXcLc3paCk",
-	"json": "{\"id\":\"oPiJxDXcLc3paCk\",\"url\":\"https://myanimelist.net/character/131473/Melon_Vendor\",\"loadedUrl\":\"https://myanimelist.net/character/131473/Melon_Vendor\",\"uniqueKey\":\"https://myanimelist.net/character/131473/Melon_Vendor\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:55.741Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/131473/Melon_Vendor",
-	"url": "https://myanimelist.net/character/131473/Melon_Vendor"
-}

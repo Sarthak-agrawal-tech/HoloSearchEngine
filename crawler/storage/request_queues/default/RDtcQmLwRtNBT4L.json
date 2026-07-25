@@ -1,9 +1,0 @@
-{
-	"id": "RDtcQmLwRtNBT4L",
-	"json": "{\"id\":\"RDtcQmLwRtNBT4L\",\"url\":\"https://myanimelist.net/anime/1271/Kyoukasho_ni_Nai\",\"loadedUrl\":\"https://myanimelist.net/anime/1271/Kyoukasho_ni_Nai\",\"uniqueKey\":\"https://myanimelist.net/anime/1271/Kyoukasho_ni_Nai\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:58:01.782Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/1271/Kyoukasho_ni_Nai",
-	"url": "https://myanimelist.net/anime/1271/Kyoukasho_ni_Nai"
-}

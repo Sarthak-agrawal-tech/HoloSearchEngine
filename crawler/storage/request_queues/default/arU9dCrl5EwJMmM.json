@@ -1,9 +1,0 @@
-{
-	"id": "arU9dCrl5EwJMmM",
-	"json": "{\"id\":\"arU9dCrl5EwJMmM\",\"url\":\"https://myanimelist.net/character/131451/Ruth\",\"loadedUrl\":\"https://myanimelist.net/character/131451/Ruth\",\"uniqueKey\":\"https://myanimelist.net/character/131451/Ruth\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:01:05.275Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/131451/Ruth",
-	"url": "https://myanimelist.net/character/131451/Ruth"
-}

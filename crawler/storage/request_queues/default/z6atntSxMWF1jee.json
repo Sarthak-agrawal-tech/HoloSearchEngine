@@ -1,9 +1,0 @@
-{
-	"id": "z6atntSxMWF1jee",
-	"json": "{\"id\":\"z6atntSxMWF1jee\",\"url\":\"https://myanimelist.net/anime/5530/Pandora_Hearts\",\"loadedUrl\":\"https://myanimelist.net/anime/5530/Pandora_Hearts\",\"uniqueKey\":\"https://myanimelist.net/anime/5530/Pandora_Hearts\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:58.562Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/5530/Pandora_Hearts",
-	"url": "https://myanimelist.net/anime/5530/Pandora_Hearts"
-}

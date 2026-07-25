@@ -1,9 +1,0 @@
-{
-	"id": "Fw2Pv3Smjx94zfs",
-	"json": "{\"id\":\"Fw2Pv3Smjx94zfs\",\"url\":\"https://myanimelist.net/anime/1151/Dominion\",\"loadedUrl\":\"https://myanimelist.net/anime/1151/Dominion\",\"uniqueKey\":\"https://myanimelist.net/anime/1151/Dominion\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:58.380Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/1151/Dominion",
-	"url": "https://myanimelist.net/anime/1151/Dominion"
-}

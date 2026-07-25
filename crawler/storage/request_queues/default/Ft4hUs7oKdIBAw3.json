@@ -1,6 +1,6 @@
 {
 	"id": "Ft4hUs7oKdIBAw3",
-	"json": "{\"id\":\"Ft4hUs7oKdIBAw3\",\"url\":\"https://myanimelist.net/character/1/Spike_Spiegel\",\"loadedUrl\":\"https://myanimelist.net/character/1/Spike_Spiegel\",\"uniqueKey\":\"https://myanimelist.net/character/1/Spike_Spiegel\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:29.771Z\"}",
+	"json": "{\"id\":\"Ft4hUs7oKdIBAw3\",\"url\":\"https://myanimelist.net/character/1/Spike_Spiegel\",\"loadedUrl\":\"https://myanimelist.net/character/1/Spike_Spiegel\",\"uniqueKey\":\"https://myanimelist.net/character/1/Spike_Spiegel\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:04.794Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

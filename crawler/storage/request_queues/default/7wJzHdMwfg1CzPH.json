@@ -1,9 +1,0 @@
-{
-	"id": "7wJzHdMwfg1CzPH",
-	"json": "{\"id\":\"7wJzHdMwfg1CzPH\",\"url\":\"https://myanimelist.net/anime/48209/Bio_Cop_Wingo\",\"loadedUrl\":\"https://myanimelist.net/anime/48209/Bio_Cop_Wingo\",\"uniqueKey\":\"https://myanimelist.net/anime/48209/Bio_Cop_Wingo\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:35.843Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/48209/Bio_Cop_Wingo",
-	"url": "https://myanimelist.net/anime/48209/Bio_Cop_Wingo"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "lQOxATdDbUvEzre",
-	"json": "{\"id\":\"lQOxATdDbUvEzre\",\"url\":\"https://myanimelist.net/character/129846/Morgan\",\"loadedUrl\":\"https://myanimelist.net/character/129846/Morgan\",\"uniqueKey\":\"https://myanimelist.net/character/129846/Morgan\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:57.042Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/129846/Morgan",
-	"url": "https://myanimelist.net/character/129846/Morgan"
-}

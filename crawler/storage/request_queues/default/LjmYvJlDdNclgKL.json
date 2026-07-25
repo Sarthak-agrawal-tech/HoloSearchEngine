@@ -1,6 +1,6 @@
 {
 	"id": "LjmYvJlDdNclgKL",
-	"json": "{\"id\":\"LjmYvJlDdNclgKL\",\"url\":\"https://myanimelist.net/anime/232/Cardcaptor_Sakura\",\"loadedUrl\":\"https://myanimelist.net/anime/232/Cardcaptor_Sakura\",\"uniqueKey\":\"https://myanimelist.net/anime/232/Cardcaptor_Sakura\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:14.576Z\"}",
+	"json": "{\"id\":\"LjmYvJlDdNclgKL\",\"url\":\"https://myanimelist.net/anime/232/Cardcaptor_Sakura\",\"loadedUrl\":\"https://myanimelist.net/anime/232/Cardcaptor_Sakura\",\"uniqueKey\":\"https://myanimelist.net/anime/232/Cardcaptor_Sakura\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-25T17:51:15.086Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

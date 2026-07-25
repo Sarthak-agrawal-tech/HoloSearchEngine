@@ -1,9 +1,0 @@
-{
-	"id": "5MAIgpXKP5aAEOF",
-	"json": "{\"id\":\"5MAIgpXKP5aAEOF\",\"url\":\"https://myanimelist.net/anime/1398/Macross_Dynamite_7\",\"loadedUrl\":\"https://myanimelist.net/anime/1398/Macross_Dynamite_7\",\"uniqueKey\":\"https://myanimelist.net/anime/1398/Macross_Dynamite_7\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:59.377Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/1398/Macross_Dynamite_7",
-	"url": "https://myanimelist.net/anime/1398/Macross_Dynamite_7"
-}

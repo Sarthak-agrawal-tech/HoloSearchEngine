@@ -1,6 +1,6 @@
 {
 	"id": "UB49j7OOkjGXApn",
-	"json": "{\"id\":\"UB49j7OOkjGXApn\",\"url\":\"https://myanimelist.net/character/68/Roy_Mustang\",\"loadedUrl\":\"https://myanimelist.net/character/68/Roy_Mustang\",\"uniqueKey\":\"https://myanimelist.net/character/68/Roy_Mustang\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:39.169Z\"}",
+	"json": "{\"id\":\"UB49j7OOkjGXApn\",\"url\":\"https://myanimelist.net/character/68/Roy_Mustang\",\"loadedUrl\":\"https://myanimelist.net/character/68/Roy_Mustang\",\"uniqueKey\":\"https://myanimelist.net/character/68/Roy_Mustang\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:31.504Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

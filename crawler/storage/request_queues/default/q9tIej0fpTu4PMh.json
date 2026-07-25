@@ -1,6 +1,6 @@
 {
 	"id": "q9tIej0fpTu4PMh",
-	"json": "{\"id\":\"q9tIej0fpTu4PMh\",\"url\":\"https://myanimelist.net/character/7/Orihime_Inoue\",\"loadedUrl\":\"https://myanimelist.net/character/7/Orihime_Inoue\",\"uniqueKey\":\"https://myanimelist.net/character/7/Orihime_Inoue\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:56:48.405Z\"}",
+	"json": "{\"id\":\"q9tIej0fpTu4PMh\",\"url\":\"https://myanimelist.net/character/7/Orihime_Inoue\",\"loadedUrl\":\"https://myanimelist.net/character/7/Orihime_Inoue\",\"uniqueKey\":\"https://myanimelist.net/character/7/Orihime_Inoue\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:48:44.610Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

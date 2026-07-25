@@ -1,6 +1,6 @@
 {
 	"id": "Jzyh0V3WR7BoctP",
-	"json": "{\"id\":\"Jzyh0V3WR7BoctP\",\"url\":\"https://myanimelist.net/character/11/Edward_Elric\",\"loadedUrl\":\"https://myanimelist.net/character/11/Edward_Elric\",\"uniqueKey\":\"https://myanimelist.net/character/11/Edward_Elric\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:36.491Z\"}",
+	"json": "{\"id\":\"Jzyh0V3WR7BoctP\",\"url\":\"https://myanimelist.net/character/11/Edward_Elric\",\"loadedUrl\":\"https://myanimelist.net/character/11/Edward_Elric\",\"uniqueKey\":\"https://myanimelist.net/character/11/Edward_Elric\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:30.233Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

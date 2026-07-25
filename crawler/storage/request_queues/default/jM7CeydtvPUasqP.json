@@ -1,9 +1,9 @@
 {
 	"id": "jM7CeydtvPUasqP",
-	"json": "{\"id\":\"jM7CeydtvPUasqP\",\"url\":\"https://myanimelist.net/anime/460/One_Piece_Movie_02__Nejimaki-jima_no_Daibouken\",\"loadedUrl\":\"https://myanimelist.net/anime/460/One_Piece_Movie_02__Nejimaki-jima_no_Daibouken\",\"uniqueKey\":\"https://myanimelist.net/anime/460/One_Piece_Movie_02__Nejimaki-jima_no_Daibouken\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:58:05.699Z\"}",
+	"json": "{\"id\":\"jM7CeydtvPUasqP\",\"url\":\"https://myanimelist.net/anime/460/One_Piece_Movie_02__Nejimaki-jima_no_Daibouken\",\"loadedUrl\":\"https://myanimelist.net/anime/460/One_Piece_Movie_02__Nejimaki-jima_no_Daibouken\",\"uniqueKey\":\"https://myanimelist.net/anime/460/One_Piece_Movie_02__Nejimaki-jima_no_Daibouken\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"Error: request timed out after 30 seconds.\\n    at Timeout._onTimeout (C:\\\\Users\\\\Lenovo\\\\Desktop\\\\SearchEngine\\\\HoloSearchEngine\\\\crawler\\\\node_modules\\\\@apify\\\\src\\\\index.ts:89:74)\\n    at listOnTimeout (node:internal/timers:605:17)\\n    at process.processTimers (node:internal/timers:541:7)\"],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:48:22.621Z\"}",
 	"method": "GET",
 	"orderNo": null,
-	"retryCount": 0,
+	"retryCount": 1,
 	"uniqueKey": "https://myanimelist.net/anime/460/One_Piece_Movie_02__Nejimaki-jima_no_Daibouken",
 	"url": "https://myanimelist.net/anime/460/One_Piece_Movie_02__Nejimaki-jima_no_Daibouken"
 }

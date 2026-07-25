@@ -1,9 +1,0 @@
-{
-	"id": "3EX3IRnbtYTopQV",
-	"json": "{\"id\":\"3EX3IRnbtYTopQV\",\"url\":\"https://myanimelist.net/character/131439/Doctor_Baccus\",\"loadedUrl\":\"https://myanimelist.net/character/131439/Doctor_Baccus\",\"uniqueKey\":\"https://myanimelist.net/character/131439/Doctor_Baccus\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:44.792Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/131439/Doctor_Baccus",
-	"url": "https://myanimelist.net/character/131439/Doctor_Baccus"
-}

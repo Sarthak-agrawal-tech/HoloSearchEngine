@@ -1,9 +1,0 @@
-{
-	"id": "OchVPIF9esiHg0h",
-	"json": "{\"id\":\"OchVPIF9esiHg0h\",\"url\":\"https://myanimelist.net/anime/5684/Fresh_Precure\",\"loadedUrl\":\"https://myanimelist.net/anime/5684/Fresh_Precure\",\"uniqueKey\":\"https://myanimelist.net/anime/5684/Fresh_Precure\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:26.395Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/5684/Fresh_Precure",
-	"url": "https://myanimelist.net/anime/5684/Fresh_Precure"
-}

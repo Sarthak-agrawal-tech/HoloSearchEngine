@@ -1,6 +1,6 @@
 {
 	"id": "oh8xKjI9YDm4LNY",
-	"json": "{\"id\":\"oh8xKjI9YDm4LNY\",\"url\":\"https://myanimelist.net/character/131428/Alisa\",\"loadedUrl\":\"https://myanimelist.net/character/131428/Alisa\",\"uniqueKey\":\"https://myanimelist.net/character/131428/Alisa\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:00:38.297Z\"}",
+	"json": "{\"id\":\"oh8xKjI9YDm4LNY\",\"url\":\"https://myanimelist.net/character/131428/Alisa\",\"loadedUrl\":\"https://myanimelist.net/character/131428/Alisa\",\"uniqueKey\":\"https://myanimelist.net/character/131428/Alisa\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-25T17:51:22.727Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

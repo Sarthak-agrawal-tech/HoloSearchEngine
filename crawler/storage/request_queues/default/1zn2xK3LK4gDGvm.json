@@ -1,9 +1,0 @@
-{
-	"id": "1zn2xK3LK4gDGvm",
-	"json": "{\"id\":\"1zn2xK3LK4gDGvm\",\"url\":\"https://myanimelist.net/character/131476/Sister_Clara\",\"loadedUrl\":\"https://myanimelist.net/character/131476/Sister_Clara\",\"uniqueKey\":\"https://myanimelist.net/character/131476/Sister_Clara\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T18:01:07.537Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/131476/Sister_Clara",
-	"url": "https://myanimelist.net/character/131476/Sister_Clara"
-}

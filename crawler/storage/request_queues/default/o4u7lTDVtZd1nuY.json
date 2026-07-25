@@ -1,9 +1,0 @@
-{
-	"id": "o4u7lTDVtZd1nuY",
-	"json": "{\"id\":\"o4u7lTDVtZd1nuY\",\"url\":\"https://myanimelist.net/character/723/Nami\",\"loadedUrl\":\"https://myanimelist.net/character/723/Nami\",\"uniqueKey\":\"https://myanimelist.net/character/723/Nami\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:59:40.782Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/723/Nami",
-	"url": "https://myanimelist.net/character/723/Nami"
-}

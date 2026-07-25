@@ -1,9 +1,0 @@
-{
-	"id": "UeVFRGqT1EXW4Jg",
-	"json": "{\"id\":\"UeVFRGqT1EXW4Jg\",\"url\":\"https://myanimelist.net/anime/975/Yokohama_Kaidashi_Kikou\",\"loadedUrl\":\"https://myanimelist.net/anime/975/Yokohama_Kaidashi_Kikou\",\"uniqueKey\":\"https://myanimelist.net/anime/975/Yokohama_Kaidashi_Kikou\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:57.276Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/975/Yokohama_Kaidashi_Kikou",
-	"url": "https://myanimelist.net/anime/975/Yokohama_Kaidashi_Kikou"
-}

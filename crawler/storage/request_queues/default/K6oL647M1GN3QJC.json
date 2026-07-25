@@ -1,6 +1,6 @@
 {
 	"id": "K6oL647M1GN3QJC",
-	"json": "{\"id\":\"K6oL647M1GN3QJC\",\"url\":\"https://myanimelist.net/anime/season/schedule\",\"loadedUrl\":\"https://myanimelist.net/anime/season/schedule\",\"uniqueKey\":\"https://myanimelist.net/anime/season/schedule\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-22T17:57:12.189Z\"}",
+	"json": "{\"id\":\"K6oL647M1GN3QJC\",\"url\":\"https://myanimelist.net/anime/season/schedule\",\"loadedUrl\":\"https://myanimelist.net/anime/season/schedule\",\"uniqueKey\":\"https://myanimelist.net/anime/season/schedule\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:49:48.307Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

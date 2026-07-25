@@ -1,6 +1,6 @@
 {
 	"id": "TSh6v7EqEsfr3SJ",
-	"json": "{\"id\":\"TSh6v7EqEsfr3SJ\",\"url\":\"https://myanimelist.net/anime/459/One_Piece_Movie_01\",\"loadedUrl\":\"https://myanimelist.net/anime/459/One_Piece_Movie_01\",\"uniqueKey\":\"https://myanimelist.net/anime/459/One_Piece_Movie_01\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:58:04.235Z\"}",
+	"json": "{\"id\":\"TSh6v7EqEsfr3SJ\",\"url\":\"https://myanimelist.net/anime/459/One_Piece_Movie_01\",\"loadedUrl\":\"https://myanimelist.net/anime/459/One_Piece_Movie_01\",\"uniqueKey\":\"https://myanimelist.net/anime/459/One_Piece_Movie_01\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:56.486Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

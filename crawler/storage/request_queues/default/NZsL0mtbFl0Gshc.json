@@ -1,6 +1,6 @@
 {
 	"id": "NZsL0mtbFl0Gshc",
-	"json": "{\"id\":\"NZsL0mtbFl0Gshc\",\"url\":\"https://myanimelist.net/anime/6421/Fullmetal_Alchemist__Brotherhood_Specials\",\"loadedUrl\":\"https://myanimelist.net/anime/6421/Fullmetal_Alchemist__Brotherhood_Specials\",\"uniqueKey\":\"https://myanimelist.net/anime/6421/Fullmetal_Alchemist__Brotherhood_Specials\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-22T17:55:30.176Z\"}",
+	"json": "{\"id\":\"NZsL0mtbFl0Gshc\",\"url\":\"https://myanimelist.net/anime/6421/Fullmetal_Alchemist__Brotherhood_Specials\",\"loadedUrl\":\"https://myanimelist.net/anime/6421/Fullmetal_Alchemist__Brotherhood_Specials\",\"uniqueKey\":\"https://myanimelist.net/anime/6421/Fullmetal_Alchemist__Brotherhood_Specials\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:25.976Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

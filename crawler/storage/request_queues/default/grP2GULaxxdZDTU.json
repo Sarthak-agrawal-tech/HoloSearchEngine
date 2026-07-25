@@ -1,0 +1,9 @@
+{
+	"id": "grP2GULaxxdZDTU",
+	"json": "{\"id\":\"grP2GULaxxdZDTU\",\"url\":\"https://myanimelist.net/anime/30276/One_Punch_Man/characters\",\"loadedUrl\":\"https://myanimelist.net/anime/30276/One_Punch_Man/characters\",\"uniqueKey\":\"https://myanimelist.net/anime/30276/One_Punch_Man/characters\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:48:46.312Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/30276/One_Punch_Man/characters",
+	"url": "https://myanimelist.net/anime/30276/One_Punch_Man/characters"
+}
