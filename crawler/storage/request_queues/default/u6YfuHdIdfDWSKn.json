@@ -1,9 +1,0 @@
-{
-	"id": "u6YfuHdIdfDWSKn",
-	"json": "{\"id\":\"u6YfuHdIdfDWSKn\",\"url\":\"https://myanimelist.net/anime/season/2025/summer\",\"loadedUrl\":\"https://myanimelist.net/anime/season/2025/summer\",\"uniqueKey\":\"https://myanimelist.net/anime/season/2025/summer\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:50:06.458Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/season/2025/summer",
-	"url": "https://myanimelist.net/anime/season/2025/summer"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "Z1QX7GnotPvZNu3",
-	"json": "{\"id\":\"Z1QX7GnotPvZNu3\",\"url\":\"https://myanimelist.net/anime/season/2004/fall\",\"loadedUrl\":\"https://myanimelist.net/anime/season/2004/fall\",\"uniqueKey\":\"https://myanimelist.net/anime/season/2004/fall\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:48:26.937Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/season/2004/fall",
-	"url": "https://myanimelist.net/anime/season/2004/fall"
-}

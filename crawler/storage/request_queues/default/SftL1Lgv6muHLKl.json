@@ -1,9 +1,0 @@
-{
-	"id": "SftL1Lgv6muHLKl",
-	"json": "{\"id\":\"SftL1Lgv6muHLKl\",\"url\":\"https://myanimelist.net/character/137295/Bartender_C\",\"loadedUrl\":\"https://myanimelist.net/character/137295/Bartender_C\",\"uniqueKey\":\"https://myanimelist.net/character/137295/Bartender_C\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-25T17:51:25.049Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/137295/Bartender_C",
-	"url": "https://myanimelist.net/character/137295/Bartender_C"
-}

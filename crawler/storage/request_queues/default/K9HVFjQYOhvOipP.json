@@ -1,9 +1,0 @@
-{
-	"id": "K9HVFjQYOhvOipP",
-	"json": "{\"id\":\"K9HVFjQYOhvOipP\",\"url\":\"https://myanimelist.net/anime/21/One_Piece/characters\",\"loadedUrl\":\"https://myanimelist.net/anime/21/One_Piece/characters\",\"uniqueKey\":\"https://myanimelist.net/anime/21/One_Piece/characters\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:48:12.198Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/21/One_Piece/characters",
-	"url": "https://myanimelist.net/anime/21/One_Piece/characters"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "s4YFjdJajfbWEUM",
-	"json": "{\"id\":\"s4YFjdJajfbWEUM\",\"url\":\"https://myanimelist.net/character/40882/Eren_Yeager\",\"loadedUrl\":\"https://myanimelist.net/character/40882/Eren_Yeager\",\"uniqueKey\":\"https://myanimelist.net/character/40882/Eren_Yeager\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:49.797Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/40882/Eren_Yeager",
-	"url": "https://myanimelist.net/character/40882/Eren_Yeager"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "aN5A5Q1dK492Ba8",
-	"json": "{\"id\":\"aN5A5Q1dK492Ba8\",\"url\":\"https://myanimelist.net/character/38884/Ted_Bower\",\"loadedUrl\":\"https://myanimelist.net/character/38884/Ted_Bower\",\"uniqueKey\":\"https://myanimelist.net/character/38884/Ted_Bower\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-25T17:51:27.764Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/38884/Ted_Bower",
-	"url": "https://myanimelist.net/character/38884/Ted_Bower"
-}

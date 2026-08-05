@@ -1,9 +1,0 @@
-{
-	"id": "u9xSb5wtpEP7t97",
-	"json": "{\"id\":\"u9xSb5wtpEP7t97\",\"url\":\"https://myanimelist.net/anime/19951/Hunter_x_Hunter_Movie_2__The_Last_Mission\",\"loadedUrl\":\"https://myanimelist.net/anime/19951/Hunter_x_Hunter_Movie_2__The_Last_Mission\",\"uniqueKey\":\"https://myanimelist.net/anime/19951/Hunter_x_Hunter_Movie_2__The_Last_Mission\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:49:03.693Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/19951/Hunter_x_Hunter_Movie_2__The_Last_Mission",
-	"url": "https://myanimelist.net/anime/19951/Hunter_x_Hunter_Movie_2__The_Last_Mission"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "tPMAsUA5mekVHqr",
-	"json": "{\"id\":\"tPMAsUA5mekVHqr\",\"url\":\"https://myanimelist.net/anime/55791/Oshi_no_Ko_2nd_Season\",\"loadedUrl\":\"https://myanimelist.net/anime/55791/Oshi_no_Ko_2nd_Season\",\"uniqueKey\":\"https://myanimelist.net/anime/55791/Oshi_no_Ko_2nd_Season\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:50:07.402Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/55791/Oshi_no_Ko_2nd_Season",
-	"url": "https://myanimelist.net/anime/55791/Oshi_no_Ko_2nd_Season"
-}

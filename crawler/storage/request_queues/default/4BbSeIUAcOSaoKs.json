@@ -1,9 +1,0 @@
-{
-	"id": "4BbSeIUAcOSaoKs",
-	"json": "{\"id\":\"4BbSeIUAcOSaoKs\",\"url\":\"https://myanimelist.net/character/58/Chrollo_Lucilfer\",\"loadedUrl\":\"https://myanimelist.net/character/58/Chrollo_Lucilfer\",\"uniqueKey\":\"https://myanimelist.net/character/58/Chrollo_Lucilfer\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:49:09.204Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/58/Chrollo_Lucilfer",
-	"url": "https://myanimelist.net/character/58/Chrollo_Lucilfer"
-}

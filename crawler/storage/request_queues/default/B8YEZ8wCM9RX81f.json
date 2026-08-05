@@ -1,9 +1,0 @@
-{
-	"id": "B8YEZ8wCM9RX81f",
-	"json": "{\"id\":\"B8YEZ8wCM9RX81f\",\"url\":\"https://myanimelist.net/anime/season/2023/spring\",\"loadedUrl\":\"https://myanimelist.net/anime/season/2023/spring\",\"uniqueKey\":\"https://myanimelist.net/anime/season/2023/spring\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:49:26.327Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/season/2023/spring",
-	"url": "https://myanimelist.net/anime/season/2023/spring"
-}

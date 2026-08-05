@@ -1,9 +1,0 @@
-{
-	"id": "ufIdY9b62faJIPQ",
-	"json": "{\"id\":\"ufIdY9b62faJIPQ\",\"url\":\"https://myanimelist.net/character/2735/Julia\",\"loadedUrl\":\"https://myanimelist.net/character/2735/Julia\",\"uniqueKey\":\"https://myanimelist.net/character/2735/Julia\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:09.609Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/2735/Julia",
-	"url": "https://myanimelist.net/character/2735/Julia"
-}

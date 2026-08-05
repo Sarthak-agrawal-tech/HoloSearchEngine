@@ -1,9 +1,0 @@
-{
-	"id": "EaXZu3Vl77tMjvj",
-	"json": "{\"id\":\"EaXZu3Vl77tMjvj\",\"url\":\"https://myanimelist.net/anime/18397/Shingeki_no_Kyojin_OVA\",\"loadedUrl\":\"https://myanimelist.net/anime/18397/Shingeki_no_Kyojin_OVA\",\"uniqueKey\":\"https://myanimelist.net/anime/18397/Shingeki_no_Kyojin_OVA\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:44.384Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/18397/Shingeki_no_Kyojin_OVA",
-	"url": "https://myanimelist.net/anime/18397/Shingeki_no_Kyojin_OVA"
-}

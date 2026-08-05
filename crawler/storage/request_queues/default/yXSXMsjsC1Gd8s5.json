@@ -1,9 +1,0 @@
-{
-	"id": "yXSXMsjsC1Gd8s5",
-	"json": "{\"id\":\"yXSXMsjsC1Gd8s5\",\"url\":\"https://myanimelist.net/character/131427/Actress\",\"loadedUrl\":\"https://myanimelist.net/character/131427/Actress\",\"uniqueKey\":\"https://myanimelist.net/character/131427/Actress\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-25T17:51:21.969Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/131427/Actress",
-	"url": "https://myanimelist.net/character/131427/Actress"
-}

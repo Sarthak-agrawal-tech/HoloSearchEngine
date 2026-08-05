@@ -1,9 +1,0 @@
-{
-	"id": "iT6csZnMCF4AvE3",
-	"json": "{\"id\":\"iT6csZnMCF4AvE3\",\"url\":\"https://myanimelist.net/anime/58271/Honey_Lemon_Soda\",\"loadedUrl\":\"https://myanimelist.net/anime/58271/Honey_Lemon_Soda\",\"uniqueKey\":\"https://myanimelist.net/anime/58271/Honey_Lemon_Soda\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:50:55.582Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/58271/Honey_Lemon_Soda",
-	"url": "https://myanimelist.net/anime/58271/Honey_Lemon_Soda"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "EOchR3c9v0prKfI",
-	"json": "{\"id\":\"EOchR3c9v0prKfI\",\"url\":\"https://myanimelist.net/anime/40333/Uzumaki\",\"loadedUrl\":\"https://myanimelist.net/anime/40333/Uzumaki\",\"uniqueKey\":\"https://myanimelist.net/anime/40333/Uzumaki\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:50:30.872Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/40333/Uzumaki",
-	"url": "https://myanimelist.net/anime/40333/Uzumaki"
-}

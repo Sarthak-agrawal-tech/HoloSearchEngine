@@ -1,9 +1,0 @@
-{
-	"id": "3rShZ0XS15YmWMY",
-	"json": "{\"id\":\"3rShZ0XS15YmWMY\",\"url\":\"https://myanimelist.net/anime/season/1997/spring\",\"loadedUrl\":\"https://myanimelist.net/anime/season/1997/spring\",\"uniqueKey\":\"https://myanimelist.net/anime/season/1997/spring\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":2,\"state\":4}},\"handledAt\":\"2026-07-25T17:51:07.487Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/season/1997/spring",
-	"url": "https://myanimelist.net/anime/season/1997/spring"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "YLNag5yvN5GkjOw",
-	"json": "{\"id\":\"YLNag5yvN5GkjOw\",\"url\":\"https://myanimelist.net/character/30/Gon_Freecss\",\"loadedUrl\":\"https://myanimelist.net/character/30/Gon_Freecss\",\"uniqueKey\":\"https://myanimelist.net/character/30/Gon_Freecss\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:49:07.602Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/30/Gon_Freecss",
-	"url": "https://myanimelist.net/character/30/Gon_Freecss"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "8TIe9TnR6418mqw",
-	"json": "{\"id\":\"8TIe9TnR6418mqw\",\"url\":\"https://myanimelist.net/anime/season/2024/summer\",\"loadedUrl\":\"https://myanimelist.net/anime/season/2024/summer\",\"uniqueKey\":\"https://myanimelist.net/anime/season/2024/summer\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-07-25T17:45:22.416Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/season/2024/summer",
-	"url": "https://myanimelist.net/anime/season/2024/summer"
-}

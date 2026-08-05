@@ -1,9 +1,0 @@
-{
-	"id": "iqQRgmDgkgaSMum",
-	"json": "{\"id\":\"iqQRgmDgkgaSMum\",\"url\":\"https://myanimelist.net/anime/57181/Ao_no_Hako\",\"loadedUrl\":\"https://myanimelist.net/anime/57181/Ao_no_Hako\",\"uniqueKey\":\"https://myanimelist.net/anime/57181/Ao_no_Hako\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:50:27.543Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/57181/Ao_no_Hako",
-	"url": "https://myanimelist.net/anime/57181/Ao_no_Hako"
-}

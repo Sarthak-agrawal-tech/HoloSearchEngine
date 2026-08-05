@@ -1,9 +1,0 @@
-{
-	"id": "jfKTM9PvqiUvjCa",
-	"json": "{\"id\":\"jfKTM9PvqiUvjCa\",\"url\":\"https://myanimelist.net/character/62/Zoro_Roronoa\",\"loadedUrl\":\"https://myanimelist.net/character/62/Zoro_Roronoa\",\"uniqueKey\":\"https://myanimelist.net/character/62/Zoro_Roronoa\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:49:11.495Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/character/62/Zoro_Roronoa",
-	"url": "https://myanimelist.net/character/62/Zoro_Roronoa"
-}

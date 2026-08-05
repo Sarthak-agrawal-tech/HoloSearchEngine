@@ -1,9 +1,0 @@
-{
-	"id": "TNg32ntnvIKWVsG",
-	"json": "{\"id\":\"TNg32ntnvIKWVsG\",\"url\":\"https://myanimelist.net/anime/upcoming\",\"loadedUrl\":\"https://myanimelist.net/anime/upcoming\",\"uniqueKey\":\"https://myanimelist.net/anime/upcoming\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-07-25T17:45:34.944Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/upcoming",
-	"url": "https://myanimelist.net/anime/upcoming"
-}

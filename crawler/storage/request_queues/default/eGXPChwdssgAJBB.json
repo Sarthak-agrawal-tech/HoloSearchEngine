@@ -1,9 +1,0 @@
-{
-	"id": "eGXPChwdssgAJBB",
-	"json": "{\"id\":\"eGXPChwdssgAJBB\",\"url\":\"https://myanimelist.net/anime/season/archive\",\"loadedUrl\":\"https://myanimelist.net/anime/season/archive\",\"uniqueKey\":\"https://myanimelist.net/anime/season/archive\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:49:49.298Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/season/archive",
-	"url": "https://myanimelist.net/anime/season/archive"
-}

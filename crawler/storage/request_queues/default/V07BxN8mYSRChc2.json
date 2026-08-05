@@ -1,9 +1,0 @@
-{
-	"id": "V07BxN8mYSRChc2",
-	"json": "{\"id\":\"V07BxN8mYSRChc2\",\"url\":\"https://myanimelist.net/anime/season/2024/fall\",\"loadedUrl\":\"https://myanimelist.net/anime/season/2024/fall\",\"uniqueKey\":\"https://myanimelist.net/anime/season/2024/fall\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-07-25T17:45:32.116Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/season/2024/fall",
-	"url": "https://myanimelist.net/anime/season/2024/fall"
-}

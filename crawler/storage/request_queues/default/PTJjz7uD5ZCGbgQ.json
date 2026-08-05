@@ -1,9 +1,0 @@
-{
-	"id": "PTJjz7uD5ZCGbgQ",
-	"json": "{\"id\":\"PTJjz7uD5ZCGbgQ\",\"url\":\"https://myanimelist.net/anime/season/2015/fall\",\"loadedUrl\":\"https://myanimelist.net/anime/season/2015/fall\",\"uniqueKey\":\"https://myanimelist.net/anime/season/2015/fall\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:48:49.143Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/season/2015/fall",
-	"url": "https://myanimelist.net/anime/season/2015/fall"
-}

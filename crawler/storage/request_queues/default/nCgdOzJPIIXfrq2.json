@@ -1,9 +1,0 @@
-{
-	"id": "nCgdOzJPIIXfrq2",
-	"json": "{\"id\":\"nCgdOzJPIIXfrq2\",\"url\":\"https://myanimelist.net/anime/54900/Wind_Breaker\",\"loadedUrl\":\"https://myanimelist.net/anime/54900/Wind_Breaker\",\"uniqueKey\":\"https://myanimelist.net/anime/54900/Wind_Breaker\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:49:55.290Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/54900/Wind_Breaker",
-	"url": "https://myanimelist.net/anime/54900/Wind_Breaker"
-}

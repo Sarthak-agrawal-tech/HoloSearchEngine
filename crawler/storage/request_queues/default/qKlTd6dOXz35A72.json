@@ -1,9 +1,0 @@
-{
-	"id": "qKlTd6dOXz35A72",
-	"json": "{\"id\":\"qKlTd6dOXz35A72\",\"url\":\"https://myanimelist.net/anime/49895/Go_Saitama\",\"loadedUrl\":\"https://myanimelist.net/anime/49895/Go_Saitama\",\"uniqueKey\":\"https://myanimelist.net/anime/49895/Go_Saitama\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:48:52.473Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/49895/Go_Saitama",
-	"url": "https://myanimelist.net/anime/49895/Go_Saitama"
-}

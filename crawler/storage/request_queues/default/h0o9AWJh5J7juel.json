@@ -1,9 +1,0 @@
-{
-	"id": "h0o9AWJh5J7juel",
-	"json": "{\"id\":\"h0o9AWJh5J7juel\",\"url\":\"https://myanimelist.net/anime/121/Fullmetal_Alchemist\",\"loadedUrl\":\"https://myanimelist.net/anime/121/Fullmetal_Alchemist\",\"uniqueKey\":\"https://myanimelist.net/anime/121/Fullmetal_Alchemist\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:29.381Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/121/Fullmetal_Alchemist",
-	"url": "https://myanimelist.net/anime/121/Fullmetal_Alchemist"
-}

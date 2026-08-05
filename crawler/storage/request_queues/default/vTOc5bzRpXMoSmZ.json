@@ -1,9 +1,0 @@
-{
-	"id": "vTOc5bzRpXMoSmZ",
-	"json": "{\"id\":\"vTOc5bzRpXMoSmZ\",\"url\":\"https://myanimelist.net/anime/season/2025/spring\",\"loadedUrl\":\"https://myanimelist.net/anime/season/2025/spring\",\"uniqueKey\":\"https://myanimelist.net/anime/season/2025/spring\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:49:45.579Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/season/2025/spring",
-	"url": "https://myanimelist.net/anime/season/2025/spring"
-}

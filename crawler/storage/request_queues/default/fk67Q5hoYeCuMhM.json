@@ -1,9 +1,0 @@
-{
-	"id": "fk67Q5hoYeCuMhM",
-	"json": "{\"id\":\"fk67Q5hoYeCuMhM\",\"url\":\"https://myanimelist.net/anime/36106/Shingeki_no_Kyojin__Lost_Girls\",\"loadedUrl\":\"https://myanimelist.net/anime/36106/Shingeki_no_Kyojin__Lost_Girls\",\"uniqueKey\":\"https://myanimelist.net/anime/36106/Shingeki_no_Kyojin__Lost_Girls\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:46:45.893Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/36106/Shingeki_no_Kyojin__Lost_Girls",
-	"url": "https://myanimelist.net/anime/36106/Shingeki_no_Kyojin__Lost_Girls"
-}

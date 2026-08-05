@@ -1,9 +1,0 @@
-{
-	"id": "J0Zhbke2bx0KNXJ",
-	"json": "{\"id\":\"J0Zhbke2bx0KNXJ\",\"url\":\"https://myanimelist.net/anime/19/Monster\",\"loadedUrl\":\"https://myanimelist.net/anime/19/Monster\",\"uniqueKey\":\"https://myanimelist.net/anime/19/Monster\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:51:01.121Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/19/Monster",
-	"url": "https://myanimelist.net/anime/19/Monster"
-}

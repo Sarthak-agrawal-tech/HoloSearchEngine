@@ -1,9 +1,0 @@
-{
-	"id": "qPkbXszYSTcqohM",
-	"json": "{\"id\":\"qPkbXszYSTcqohM\",\"url\":\"https://myanimelist.net/anime/52481/Gimai_Seikatsu\",\"loadedUrl\":\"https://myanimelist.net/anime/52481/Gimai_Seikatsu\",\"uniqueKey\":\"https://myanimelist.net/anime/52481/Gimai_Seikatsu\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-07-25T17:50:15.197Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/52481/Gimai_Seikatsu",
-	"url": "https://myanimelist.net/anime/52481/Gimai_Seikatsu"
-}
