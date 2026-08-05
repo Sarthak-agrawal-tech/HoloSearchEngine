@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 
 import tantivy
@@ -35,6 +36,7 @@ with open(DATA_PATH, encoding="utf-8") as f:
 
 indexed = 0
 skipped = 0
+seen_anime_ids = set()
 
 for i, page in enumerate(pages):
     url = page["url"]
@@ -53,6 +55,15 @@ for i, page in enumerate(pages):
     if url.count("/") > 5:
         skipped += 1
         continue
+
+    # Deduplicate by numeric anime ID
+    anime_id_match = re.search(r'/anime/(\d+)', url)
+    if anime_id_match:
+        anime_id = anime_id_match.group(1)
+        if anime_id in seen_anime_ids:
+            skipped += 1
+            continue
+        seen_anime_ids.add(anime_id)
 
     writer.add_document(
         tantivy.Document(

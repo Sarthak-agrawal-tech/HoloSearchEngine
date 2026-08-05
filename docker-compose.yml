@@ -1,0 +1,50 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.12
+    restart: unless-stopped
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
+  embed_service:
+    build: ./embeded_service
+    restart: unless-stopped
+    environment:
+      - HF_HOME=/tmp/huggingface
+
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    restart: unless-stopped
+    environment:
+      QDRANT_URL: http://qdrant:6333
+      EMBEDDING_URL: http://embed_service:8000
+      TANTIVY_PATH: /data/tantivy_index
+    volumes:
+      - tantivy_data:/data/tantivy_index
+    depends_on:
+      - qdrant
+      - embed_service
+
+  frontend:
+    build: ./frontend/holo-search-engine
+    restart: unless-stopped
+    environment:
+      NEXT_PUBLIC_API_URL: /search
+    depends_on:
+      - api
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+    depends_on:
+      - frontend
+      - api
+
+volumes:
+  qdrant_storage:
+  tantivy_data:

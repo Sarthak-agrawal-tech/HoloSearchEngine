@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 
 from qdrant_client import QdrantClient
@@ -42,6 +43,7 @@ print(f"Created collection '{COLLECTION}' (vector size={VECTOR_SIZE})")
 
 # Embed and upsert
 points = []
+seen_anime_ids = set()
 for i, page in enumerate(pages):
     text = page["textContent"]
     if not text or len(text.strip()) < 50:
@@ -64,6 +66,15 @@ for i, page in enumerate(pages):
     if url.count("/") > 5:
         print(f"[SKIP] {page['title']} — sub-page ({url})")
         continue
+
+    # Deduplicate by numeric anime ID (fixes double-slug issue)
+    anime_id_match = re.search(r'/anime/(\d+)', url)
+    if anime_id_match:
+        anime_id = anime_id_match.group(1)
+        if anime_id in seen_anime_ids:
+            print(f"[SKIP] {page['title']} — duplicate anime ID {anime_id}")
+            continue
+        seen_anime_ids.add(anime_id)
 
     vector = model.encode(text).tolist()
     payload = {

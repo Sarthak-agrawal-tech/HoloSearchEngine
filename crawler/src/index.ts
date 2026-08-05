@@ -19,25 +19,33 @@ interface PageResult {
 }
 
 const SEED_URLS = [
-     // Individual popular anime (guaranteed coverage)
-  'https://myanimelist.net/anime/1/Cowboy_Bebop',
-  'https://myanimelist.net/anime/5114/Fullmetal_Alchemist_Brotherhood',
-  'https://myanimelist.net/anime/16498/Shingeki_no_Kyojin',
-  'https://myanimelist.net/anime/21/One_Piece',
-  'https://myanimelist.net/anime/269/Bleach',
-  'https://myanimelist.net/anime/30276/One_Punch_Man',
-  'https://myanimelist.net/anime/11061/Hunter_x_Hunter',
-  'https://myanimelist.net/anime/28977/Gintama',
-
-  // Hub pages — each links to 40+ popular anime
-  'https://myanimelist.net/anime/season/2024/spring',
-  'https://myanimelist.net/anime/season/2024/summer',
-  'https://myanimelist.net/anime/season/2024/fall',
-  'https://myanimelist.net/anime/season/2025/winter',
-  'https://myanimelist.net/anime/upcoming',
-
-  // Top-rated list — another high-value hub
-  'https://myanimelist.net/topanime.php',
+    'https://myanimelist.net/anime.php?letter=A',
+  'https://myanimelist.net/anime.php?letter=B',
+  'https://myanimelist.net/anime.php?letter=C',
+  'https://myanimelist.net/anime.php?letter=D',
+  'https://myanimelist.net/anime.php?letter=E',
+  'https://myanimelist.net/anime.php?letter=F',
+  'https://myanimelist.net/anime.php?letter=G',
+  'https://myanimelist.net/anime.php?letter=H',
+  'https://myanimelist.net/anime.php?letter=I',
+  'https://myanimelist.net/anime.php?letter=J',
+  'https://myanimelist.net/anime.php?letter=K',
+  'https://myanimelist.net/anime.php?letter=L',
+  'https://myanimelist.net/anime.php?letter=M',
+  'https://myanimelist.net/anime.php?letter=N',
+  'https://myanimelist.net/anime.php?letter=O',
+  'https://myanimelist.net/anime.php?letter=P',
+  'https://myanimelist.net/anime.php?letter=Q',
+  'https://myanimelist.net/anime.php?letter=R',
+  'https://myanimelist.net/anime.php?letter=S',
+  'https://myanimelist.net/anime.php?letter=T',
+  'https://myanimelist.net/anime.php?letter=U',
+  'https://myanimelist.net/anime.php?letter=V',
+  'https://myanimelist.net/anime.php?letter=W',
+  'https://myanimelist.net/anime.php?letter=X',
+  'https://myanimelist.net/anime.php?letter=Y',
+  'https://myanimelist.net/anime.php?letter=Z',
+  'https://myanimelist.net/anime.php?letter=0-9',
 ]
 
 const OUTPUT_PATH = path.resolve(
@@ -48,26 +56,22 @@ const results: PageResult[] = [];
 let pagesProcessed = 0;
 let pagesExtracted = 0;
 const crawler = new CheerioCrawler({
+    useSessionPool: true,
+    sessionPoolOptions: {
+        maxPoolSize: 25,
+    },
+
+
     async requestHandler({ request, body, enqueueLinks}) {
         pagesProcessed++;
         await enqueueLinks({
             regexps: [
-                // 1. Matches only the main Anime overview pages (stops exactly after the ID or slug)
-                /^https:\/\/myanimelist\.net\/anime\/\d+(?:\/[\w-]+)?\/?$/,
-
-                // 2. Matches Characters & Staff sub-pages for an anime (Crucial for search index!)
-                /^https:\/\/myanimelist\.net\/anime\/\d+(?:\/[\w-]+)?\/characters(?:\/|$)/,
-
-                // 3. Matches individual Character profile pages
-                /^https:\/\/myanimelist\.net\/character\/\d+(?:\/[\w-]+)?\/?$/,
-
-                // 4. Matches current, upcoming, AND all past archive season pages (e.g., /season/2023/fall)
-                /^https:\/\/myanimelist\.net\/anime\/season(?:\/\d{4}\/\w+|\/|$)/,
-
-                // 5. Matches the upcoming anime index
-                /^https:\/\/myanimelist\.net\/anime\/upcoming(?:\/|$)/
-                    ],
-            limit: 20,
+               // Anime detail pages (the pages we want content from)
+                /^https:\/\/myanimelist\.net\/anime\/\d+/,
+                // Index page pagination (to discover more anime)
+                /^https:\/\/myanimelist\.net\/anime\.php\?letter=[\w-]+(&show=\d+)?$/,
+                ],
+            limit: 55,
         })
         const html = body.toString();
         const dom = new JSDOM(html, { url: request.url })
@@ -96,9 +100,11 @@ const crawler = new CheerioCrawler({
         console.error(`[FAIL] ${request.url} - ${request.errorMessages ?? 'Unknown error'}`)
     },
 
-    maxRequestsPerCrawl: 300,
-    maxConcurrency: 2,
+
+    maxRequestsPerCrawl: 25000,
+    maxConcurrency: 4,
     requestHandlerTimeoutSecs: 30,
+    maxRequestRetries: 5,
 });
 
 async function main() {
@@ -113,7 +119,9 @@ async function main() {
     console.log(`Done. ${pagesExtracted}/${pagesProcessed} pages extracted.`)
 
     console.log(`Output → ${OUTPUT_PATH}`);
+
 }
+
 
 main().catch((err) => {
   console.error('Fatal:', err);
