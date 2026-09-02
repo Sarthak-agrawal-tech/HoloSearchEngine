@@ -1,0 +1,9 @@
+{
+	"id": "i6dMDNCR2GTmcHu",
+	"json": "{\"id\":\"i6dMDNCR2GTmcHu\",\"url\":\"https://myanimelist.net/anime.php?letter=T&show=450\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=T&show=450\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=T&show=450\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:54:10.084Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=T&show=450",
+	"url": "https://myanimelist.net/anime.php?letter=T&show=450"
+}

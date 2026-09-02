@@ -1,0 +1,9 @@
+{
+	"id": "4jsLj0Tr80FjFv9",
+	"json": "{\"id\":\"4jsLj0Tr80FjFv9\",\"url\":\"https://myanimelist.net/topanime.php?limit=7000\",\"loadedUrl\":\"https://myanimelist.net/topanime.php?limit=7000\",\"uniqueKey\":\"https://myanimelist.net/topanime.php?limit=7000\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:22.793Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/topanime.php?limit=7000",
+	"url": "https://myanimelist.net/topanime.php?limit=7000"
+}

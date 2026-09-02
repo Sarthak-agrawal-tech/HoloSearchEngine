@@ -1,0 +1,9 @@
+{
+	"id": "PHSAn01vgx8fwfl",
+	"json": "{\"id\":\"PHSAn01vgx8fwfl\",\"url\":\"https://myanimelist.net/anime.php?letter=J&show=1100\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=J&show=1100\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=J&show=1100\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:53.225Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=J&show=1100",
+	"url": "https://myanimelist.net/anime.php?letter=J&show=1100"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "tj5YcJBMsFB0YuZ",
+	"json": "{\"id\":\"tj5YcJBMsFB0YuZ\",\"url\":\"https://myanimelist.net/anime.php?letter=G&show=600\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=G&show=600\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=G&show=600\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:47.658Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=G&show=600",
+	"url": "https://myanimelist.net/anime.php?letter=G&show=600"
+}

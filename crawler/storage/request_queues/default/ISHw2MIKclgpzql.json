@@ -1,0 +1,9 @@
+{
+	"id": "ISHw2MIKclgpzql",
+	"json": "{\"id\":\"ISHw2MIKclgpzql\",\"url\":\"https://myanimelist.net/anime.php?letter=S&show=1050\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=S&show=1050\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=S&show=1050\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:54:08.875Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=S&show=1050",
+	"url": "https://myanimelist.net/anime.php?letter=S&show=1050"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "SuDPy7MKMT725S5",
+	"json": "{\"id\":\"SuDPy7MKMT725S5\",\"url\":\"https://myanimelist.net/anime.php?letter=L&show=500\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=L&show=500\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=L&show=500\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:56.940Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=L&show=500",
+	"url": "https://myanimelist.net/anime.php?letter=L&show=500"
+}

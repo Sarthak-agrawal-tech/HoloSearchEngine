@@ -1,0 +1,9 @@
+{
+	"id": "VML0SIoC02SH8A4",
+	"json": "{\"id\":\"VML0SIoC02SH8A4\",\"url\":\"https://myanimelist.net/anime.php?letter=M&show=350\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=M&show=350\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=M&show=350\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:58.181Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=M&show=350",
+	"url": "https://myanimelist.net/anime.php?letter=M&show=350"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "CtW5HxltvfPatTx",
+	"json": "{\"id\":\"CtW5HxltvfPatTx\",\"url\":\"https://myanimelist.net/anime.php?letter=N&show=1150\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=N&show=1150\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=N&show=1150\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:54:00.652Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=N&show=1150",
+	"url": "https://myanimelist.net/anime.php?letter=N&show=1150"
+}

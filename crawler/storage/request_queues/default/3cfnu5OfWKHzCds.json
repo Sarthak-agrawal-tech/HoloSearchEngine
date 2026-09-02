@@ -1,0 +1,9 @@
+{
+	"id": "3cfnu5OfWKHzCds",
+	"json": "{\"id\":\"3cfnu5OfWKHzCds\",\"url\":\"https://myanimelist.net/anime.php?letter=Y&show=50\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=Y&show=50\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=Y&show=50\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:54:17.547Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=Y&show=50",
+	"url": "https://myanimelist.net/anime.php?letter=Y&show=50"
+}

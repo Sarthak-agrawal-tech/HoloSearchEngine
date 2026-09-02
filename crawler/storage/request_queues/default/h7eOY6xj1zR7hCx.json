@@ -1,0 +1,9 @@
+{
+	"id": "h7eOY6xj1zR7hCx",
+	"json": "{\"id\":\"h7eOY6xj1zR7hCx\",\"url\":\"https://myanimelist.net/anime.php?letter=0-9&show=700\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=0-9&show=700\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=0-9&show=700\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:32.084Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=0-9&show=700",
+	"url": "https://myanimelist.net/anime.php?letter=0-9&show=700"
+}

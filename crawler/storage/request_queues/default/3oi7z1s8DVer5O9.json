@@ -1,0 +1,9 @@
+{
+	"id": "3oi7z1s8DVer5O9",
+	"json": "{\"id\":\"3oi7z1s8DVer5O9\",\"url\":\"https://myanimelist.net/anime.php?letter=A&show=1000\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=A&show=1000\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=A&show=1000\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:35.773Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=A&show=1000",
+	"url": "https://myanimelist.net/anime.php?letter=A&show=1000"
+}

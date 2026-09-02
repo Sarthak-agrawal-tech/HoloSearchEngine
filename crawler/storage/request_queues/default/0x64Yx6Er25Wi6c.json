@@ -1,0 +1,9 @@
+{
+	"id": "0x64Yx6Er25Wi6c",
+	"json": "{\"id\":\"0x64Yx6Er25Wi6c\",\"url\":\"https://myanimelist.net/anime/41093/Yao_Jing_Zhong_Zhi_Shou_Ce\",\"uniqueKey\":\"https://myanimelist.net/anime/41093/Yao_Jing_Zhong_Zhi_Shou_Ce\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
+	"method": "GET",
+	"orderNo": 1788357205668,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime/41093/Yao_Jing_Zhong_Zhi_Shou_Ce",
+	"url": "https://myanimelist.net/anime/41093/Yao_Jing_Zhong_Zhi_Shou_Ce"
+}

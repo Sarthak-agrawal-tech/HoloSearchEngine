@@ -1,0 +1,9 @@
+{
+	"id": "TeEkIz2288xcXN6",
+	"json": "{\"id\":\"TeEkIz2288xcXN6\",\"url\":\"https://myanimelist.net/anime.php?letter=X&show=500\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=X&show=500\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=X&show=500\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:54:16.435Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=X&show=500",
+	"url": "https://myanimelist.net/anime.php?letter=X&show=500"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "pk7A5v99IR1E85r",
+	"json": "{\"id\":\"pk7A5v99IR1E85r\",\"url\":\"https://myanimelist.net/anime.php?letter=U&show=700\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=U&show=700\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=U&show=700\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:54:11.837Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=U&show=700",
+	"url": "https://myanimelist.net/anime.php?letter=U&show=700"
+}

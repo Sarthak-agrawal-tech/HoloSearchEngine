@@ -1,10 +1,7 @@
-import { CheerioCrawler, RequestHandlerResult } from 'crawlee';
+import { CheerioCrawler } from 'crawlee';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { JSDOM } from 'jsdom'
-import { Readability } from '@mozilla/readability';
-
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -18,112 +15,193 @@ interface PageResult {
     wordCount: number;
 }
 
-const SEED_URLS = [
-    'https://myanimelist.net/anime.php?letter=A',
-  'https://myanimelist.net/anime.php?letter=B',
-  'https://myanimelist.net/anime.php?letter=C',
-  'https://myanimelist.net/anime.php?letter=D',
-  'https://myanimelist.net/anime.php?letter=E',
-  'https://myanimelist.net/anime.php?letter=F',
-  'https://myanimelist.net/anime.php?letter=G',
-  'https://myanimelist.net/anime.php?letter=H',
-  'https://myanimelist.net/anime.php?letter=I',
-  'https://myanimelist.net/anime.php?letter=J',
-  'https://myanimelist.net/anime.php?letter=K',
-  'https://myanimelist.net/anime.php?letter=L',
-  'https://myanimelist.net/anime.php?letter=M',
-  'https://myanimelist.net/anime.php?letter=N',
-  'https://myanimelist.net/anime.php?letter=O',
-  'https://myanimelist.net/anime.php?letter=P',
-  'https://myanimelist.net/anime.php?letter=Q',
-  'https://myanimelist.net/anime.php?letter=R',
-  'https://myanimelist.net/anime.php?letter=S',
-  'https://myanimelist.net/anime.php?letter=T',
-  'https://myanimelist.net/anime.php?letter=U',
-  'https://myanimelist.net/anime.php?letter=V',
-  'https://myanimelist.net/anime.php?letter=W',
-  'https://myanimelist.net/anime.php?letter=X',
-  'https://myanimelist.net/anime.php?letter=Y',
-  'https://myanimelist.net/anime.php?letter=Z',
-  'https://myanimelist.net/anime.php?letter=0-9',
-]
+// -------------------------------------------------------------
+// 🚀 MASSIVE SEED GENERATOR (Discovers ALL 25,000+ Anime on MAL)
+// -------------------------------------------------------------
+const SEED_URLS: string[] = [];
 
-const OUTPUT_PATH = path.resolve(
-    __dirname, '..', 'data', 'crawl-results.json'
-)
+// 1. Top Anime List Pagination (Top 10,000 anime)
+for (let limit = 0; limit <= 10000; limit += 50) {
+    SEED_URLS.push(`https://myanimelist.net/topanime.php?limit=${limit}`);
+}
 
-const results: PageResult[] = [];
+// 2. A-Z Letter Index Pagination (Covers entire alphabetical database)
+const LETTERS = ['0-9', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')];
+for (const letter of LETTERS) {
+    // Paginate each letter up to show=1500 (30 pages per letter = 1,500 anime per letter)
+    for (let show = 0; show <= 1500; show += 50) {
+        SEED_URLS.push(`https://myanimelist.net/anime.php?letter=${letter}&show=${show}`);
+    }
+}
+
+// 3. Seasonal Archive Seeds (2000 to 2026 - covers all past/present seasonal anime)
+const SEASONS = ['winter', 'spring', 'summer', 'fall'];
+for (let year = 2000; year <= 2026; year++) {
+    for (const season of SEASONS) {
+        SEED_URLS.push(`https://myanimelist.net/anime/season/${year}/${season}`);
+    }
+}
+
+// 4. Popular Genre Seeds (Genres 1 to 50)
+for (let genreId = 1; genreId <= 50; genreId++) {
+    SEED_URLS.push(`https://myanimelist.net/anime/genre/${genreId}`);
+}
+
+const OUTPUT_PATH = path.resolve(__dirname, '..', 'data', 'crawl-results.json');
+
+// State tracking sets for fast deduplication
+let results: PageResult[] = [];
+const seenAnimeIds = new Set<string>();
+const seenUrls = new Set<string>();
+
 let pagesProcessed = 0;
-let pagesExtracted = 0;
+let newPagesExtracted = 0;
+
+/**
+ * Loads previous crawl data to ensure zero re-crawling of old items.
+ */
+async function loadExistingResults() {
+    try {
+        const fileData = await fs.readFile(OUTPUT_PATH, 'utf-8');
+        const existing: PageResult[] = JSON.parse(fileData);
+        results = existing;
+        for (const item of results) {
+            seenUrls.add(item.url);
+            const match = item.url.match(/\/anime\/(\d+)/);
+            if (match) {
+                seenAnimeIds.add(match[1]);
+            }
+        }
+        console.log(`[RESUME] Loaded ${results.length} previously saved anime entries from disk.`);
+    } catch {
+        console.log(`[NEW] Starting a new dataset.`);
+    }
+}
+
 const crawler = new CheerioCrawler({
     useSessionPool: true,
     sessionPoolOptions: {
-        maxPoolSize: 25,
+        maxPoolSize: 50,
     },
 
+    // Speed & Politeness Settings
+    maxRequestsPerCrawl: 250000,
+    maxConcurrency: 6, // Increased concurrency for higher throughput
+    requestHandlerTimeoutSecs: 30,
+    maxRequestRetries: 3,
 
-    async requestHandler({ request, body, enqueueLinks}) {
+    async requestHandler({ request, body, $, enqueueLinks }) {
         pagesProcessed++;
+
+        // High-capacity link discovery
         await enqueueLinks({
             regexps: [
-               // Anime detail pages (the pages we want content from)
-                /^https:\/\/myanimelist\.net\/anime\/\d+/,
-                // Index page pagination (to discover more anime)
-                /^https:\/\/myanimelist\.net\/anime\.php\?letter=[\w-]+(&show=\d+)?$/,
-                ],
-            limit: 55,
-        })
-        const html = body.toString();
-        const dom = new JSDOM(html, { url: request.url })
-        const article = new Readability(dom.window.document).parse();
+                // Anime overview detail pages
+                /^https:\/\/myanimelist\.net\/anime\/\d+(?:\/[\w-]+)?\/?$/,
 
-        if(!article || !article.textContent){
-            console.warn(`[SKIP] ${request.url} - no extractable content`);
+                // Letter index pagination
+                /^https:\/\/myanimelist\.net\/anime\.php\?letter=[\w-]+(&show=\d+)?$/,
+
+                // Top anime pagination
+                /^https:\/\/myanimelist\.net\/topanime\.php\?limit=\d+$/,
+
+                // Genre & Season pagination
+                /^https:\/\/myanimelist\.net\/anime\/genre\/\d+/,
+                /^https:\/\/myanimelist\.net\/anime\/season\/\d{4}\/\w+/,
+            ],
+            limit: 1000, // Enqueue up to 1000 links per page for deep discovery
+        });
+
+        // Skip discovery/listing pages from being saved into the JSON database
+        if (
+            request.url.includes('/anime.php?') ||
+            request.url.includes('/topanime.php') ||
+            request.url.includes('/anime/genre/') ||
+            request.url.includes('/anime/season/')
+        ) {
             return;
         }
 
-        const result: PageResult ={
+        // Ignore junk non-overview subpages
+        if (
+            request.url.includes('/characters') ||
+            request.url.includes('/staff') ||
+            request.url.includes('/reviews') ||
+            request.url.includes('/forum') ||
+            request.url.includes('/pics') ||
+            request.url.includes('/episode') ||
+            request.url.includes('/userrecs') ||
+            request.url.includes('/stats') ||
+            request.url.includes('/video')
+        ) {
+            return;
+        }
+
+        // Deduplicate by numeric Anime ID
+        const animeIdMatch = request.url.match(/\/anime\/(\d+)/);
+        if (!animeIdMatch) return;
+
+        const animeId = animeIdMatch[1];
+        if (seenAnimeIds.has(animeId)) {
+            return;
+        }
+        seenAnimeIds.add(animeId);
+        seenUrls.add(request.url);
+
+        // Targeted DOM Extraction
+        const title = $('h1.title-name').text().trim() || $('span[itemprop="name"]').text().trim() || $('title').text().trim();
+        const synopsis = $('[itemprop="description"]').text().trim();
+        const sidebarInfo = $('.spaceit_pad').text().trim();
+        const score = $('.score-label').text().trim();
+
+        const fullContent = `Title: ${title}\nScore: ${score}\n\nSynopsis:\n${synopsis}\n\nDetails:\n${sidebarInfo}`.trim();
+
+        if (!synopsis || fullContent.length < 50) {
+            return;
+        }
+
+        const result: PageResult = {
             url: request.url,
-            title: article.title,
-            textContent: article.textContent.trim(),
-            excerpt: article.excerpt || null,
-            textLength: article.textContent.trim().length,
-            wordCount: article.textContent.trim().split(/\s+/).length
+            title: title,
+            textContent: fullContent,
+            excerpt: synopsis.substring(0, 200),
+            textLength: fullContent.length,
+            wordCount: fullContent.split(/\s+/).length,
         };
 
         results.push(result);
-        pagesExtracted++;
-        console.log(`[OK] ${article.title} (${result.wordCount} words)`);
+        newPagesExtracted++;
+        console.log(`[OK] (${results.length}) ${title} | +${newPagesExtracted} new in this session`);
+
+        // Periodically write to disk every 20 items
+        if (results.length % 20 === 0) {
+            await fs.mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
+            await fs.writeFile(OUTPUT_PATH, JSON.stringify(results, null, 2), 'utf-8');
+        }
     },
 
-    failedRequestHandler({request}){
-        console.error(`[FAIL] ${request.url} - ${request.errorMessages ?? 'Unknown error'}`)
+    failedRequestHandler({ request }) {
+        console.error(`[FAIL] ${request.url} - ${request.errorMessages ?? 'Unknown error'}`);
     },
-
-
-    maxRequestsPerCrawl: 25000,
-    maxConcurrency: 4,
-    requestHandlerTimeoutSecs: 30,
-    maxRequestRetries: 5,
 });
 
 async function main() {
-    console.log(`Crawling ${SEED_URLS.length} seed URLs...\n`);
+    await loadExistingResults();
+
+    console.log(`Initialized ${SEED_URLS.length} discovery seed URLs...\n`);
 
     await crawler.run(SEED_URLS);
 
     await fs.mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
-
     await fs.writeFile(OUTPUT_PATH, JSON.stringify(results, null, 2), 'utf-8');
-    
-    console.log(`Done. ${pagesExtracted}/${pagesProcessed} pages extracted.`)
 
-    console.log(`Output → ${OUTPUT_PATH}`);
-
+    console.log(`\nCrawl session complete.`);
+    console.log(`New anime added in this run: ${newPagesExtracted}`);
+    console.log(`Total database size: ${results.length} unique anime.`);
+    console.log(`Saved to → ${OUTPUT_PATH}`);
 }
 
-
 main().catch((err) => {
-  console.error('Fatal:', err);
-  process.exit(1);
+    console.error('Fatal:', err);
+    process.exit(1);
 });

@@ -1,0 +1,9 @@
+{
+	"id": "BoTxMVTvyVHs83l",
+	"json": "{\"id\":\"BoTxMVTvyVHs83l\",\"url\":\"https://myanimelist.net/anime.php?letter=U&show=150\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=U&show=150\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=U&show=150\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:54:11.265Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=U&show=150",
+	"url": "https://myanimelist.net/anime.php?letter=U&show=150"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ribxxAl42MBNEGq",
+	"json": "{\"id\":\"ribxxAl42MBNEGq\",\"url\":\"https://myanimelist.net/anime.php?letter=X&show=450\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=X&show=450\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=X&show=450\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:54:16.328Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=X&show=450",
+	"url": "https://myanimelist.net/anime.php?letter=X&show=450"
+}

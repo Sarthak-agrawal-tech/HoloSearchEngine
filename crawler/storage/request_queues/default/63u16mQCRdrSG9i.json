@@ -1,0 +1,9 @@
+{
+	"id": "63u16mQCRdrSG9i",
+	"json": "{\"id\":\"63u16mQCRdrSG9i\",\"url\":\"https://myanimelist.net/anime.php?letter=L&show=300\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=L&show=300\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=L&show=300\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:56.315Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=L&show=300",
+	"url": "https://myanimelist.net/anime.php?letter=L&show=300"
+}

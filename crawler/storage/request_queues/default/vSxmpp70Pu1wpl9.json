@@ -1,0 +1,9 @@
+{
+	"id": "vSxmpp70Pu1wpl9",
+	"json": "{\"id\":\"vSxmpp70Pu1wpl9\",\"url\":\"https://myanimelist.net/anime.php?letter=G&show=250\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=G&show=250\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=G&show=250\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:47.196Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=G&show=250",
+	"url": "https://myanimelist.net/anime.php?letter=G&show=250"
+}

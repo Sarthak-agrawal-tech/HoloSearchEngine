@@ -1,0 +1,9 @@
+{
+	"id": "HVKAEGmLEtAToUp",
+	"json": "{\"id\":\"HVKAEGmLEtAToUp\",\"url\":\"https://myanimelist.net/anime.php?letter=H&show=1850\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=H&show=1850\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
+	"method": "GET",
+	"orderNo": 1788357230145,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=H&show=1850",
+	"url": "https://myanimelist.net/anime.php?letter=H&show=1850"
+}

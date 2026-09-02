@@ -1,0 +1,9 @@
+{
+	"id": "uV8PoElD9P9RCpg",
+	"json": "{\"id\":\"uV8PoElD9P9RCpg\",\"url\":\"https://myanimelist.net/anime.php?letter=H&show=200\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=H&show=200\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=H&show=200\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:48.796Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=H&show=200",
+	"url": "https://myanimelist.net/anime.php?letter=H&show=200"
+}

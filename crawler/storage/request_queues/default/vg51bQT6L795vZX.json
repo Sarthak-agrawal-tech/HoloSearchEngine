@@ -1,0 +1,9 @@
+{
+	"id": "vg51bQT6L795vZX",
+	"json": "{\"id\":\"vg51bQT6L795vZX\",\"url\":\"https://myanimelist.net/anime.php?letter=L&show=450\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=L&show=450\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=L&show=450\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:56.542Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://myanimelist.net/anime.php?letter=L&show=450",
+	"url": "https://myanimelist.net/anime.php?letter=L&show=450"
+}
