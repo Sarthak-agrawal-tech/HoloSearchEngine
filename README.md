@@ -57,40 +57,33 @@ flowchart TD
     AIService -.->|Returns AI Summary| RustAPI
 ```
 ```mermaid
-
 graph TD
-    %% Styling and Configuration
-    classDef frontend fill:#E3F2FD,stroke:#1E88E5,stroke-width:2px,color:#000;
-    classDef backend fill:#FFE0B2,stroke:#F57C00,stroke-width:2px,color:#000;
-    classDef microservice fill:#E8F5E9,stroke:#43A047,stroke-width:2px,color:#000;
-    classDef database fill:#EDE7F6,stroke:#5E35B1,stroke-width:2px,color:#000;
-
     %% Client / Frontend Layer
-    subgraph Client Layer
-        FE[Next.js Frontend<br><i>localhost:3000</i>] :::frontend
+    subgraph Client Layer [Client Layer]
+        FE[Next.js Frontend<br>localhost:3000]
     end
 
     %% Core Backend Layer
     subgraph Core Engine [Rust Backend Layer]
-        API[Rust API Backend<br><i>localhost:8080</i>] :::backend
-        RRF{Reciprocal Rank<br>Fusion RRF} :::backend
+        API[Rust API Backend<br>localhost:8080]
+        RRF{Reciprocal Rank<br>Fusion RRF}
     end
 
     %% Microservices Layer
     subgraph Microservices [Python Microservices]
-        EMB_SVC[Embedding Service<br><i>localhost:8000</i><br>all-MiniLM-L6-v2] :::microservice
-        AI_SVC[AI Summary Service<br><i>localhost:8001</i><br>Gemini 3.5 Flash] :::microservice
+        EMB_SVC[Embedding Service<br>localhost:8000<br>all-MiniLM-L6-v2]
+        AI_SVC[AI Summary Service<br>localhost:8001<br>Gemini 3.5 Flash]
     end
 
     %% Database / Index Layer
     subgraph Data Layer [Storage & Search Indexes]
-        QD[(Qdrant Vector DB<br><i>localhost:6333</i>)] :::database
-        TV[[Tantivy Index<br><i>Local Disk</i>]] :::database
+        QD[(Qdrant Vector DB<br>localhost:6333)]
+        TV[[Tantivy Index<br>Local Disk]]
     end
 
     %% Data Pipeline Interaction
     subgraph Setup Pipeline [Ingestion Data Pipeline]
-        PL[pipeline.py] :::microservice
+        PL[pipeline.py]
     end
 
     %% Pipeline Data Flow
@@ -123,4 +116,15 @@ graph TD
     %% Final Return
     API -->|Return JSON: Results + Metadata + AI Summary| FE
 
+    %% Node Styles Mapping (Applied Outside Subgraphs)
+    class FE frontend;
+    class API,RRF backend;
+    class EMB_SVC,AI_SVC,PL microservice;
+    class QD,TV database;
+
+    %% Define Node Styles
+    classDef frontend fill:#E3F2FD,stroke:#1E88E5,stroke-width:2px,color:#000;
+    classDef backend fill:#FFE0B2,stroke:#F57C00,stroke-width:2px,color:#000;
+    classDef microservice fill:#E8F5E9,stroke:#43A047,stroke-width:2px,color:#000;
+    classDef database fill:#EDE7F6,stroke:#5E35B1,stroke-width:2px,color:#000;
 ```
