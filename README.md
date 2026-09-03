@@ -55,3 +55,69 @@ flowchart TD
     AIService -->|Calls LLM| Gemini
     Gemini -.->|Returns Contextual Summary| AIService
     AIService -.->|Returns AI Summary| RustAPI
+
+graph TD
+    %% Styling and Configuration
+    classDef frontend fill:#E3F2FD,stroke:#1E88E5,stroke-width:2px,color:#000;
+    classDef backend fill:#FFE0B2,stroke:#F57C00,stroke-width:2px,color:#000;
+    classDef microservice fill:#E8F5E9,stroke:#43A047,stroke-width:2px,color:#000;
+    classDef database fill:#EDE7F6,stroke:#5E35B1,stroke-width:2px,color:#000;
+
+    %% Client / Frontend Layer
+    subgraph Client Layer
+        FE[Next.js Frontend<br><i>localhost:3000</i>] :::frontend
+    end
+
+    %% Core Backend Layer
+    subgraph Core Engine [Rust Backend Layer]
+        API[Rust API Backend<br><i>localhost:8080</i>] :::backend
+        RRF{Reciprocal Rank<br>Fusion RRF} :::backend
+    end
+
+    %% Microservices Layer
+    subgraph Microservices [Python Microservices]
+        EMB_SVC[Embedding Service<br><i>localhost:8000</i><br>all-MiniLM-L6-v2] :::microservice
+        AI_SVC[AI Summary Service<br><i>localhost:8001</i><br>Gemini 3.5 Flash] :::microservice
+    end
+
+    %% Database / Index Layer
+    subgraph Data Layer [Storage & Search Indexes]
+        QD[(Qdrant Vector DB<br><i>localhost:6333</i>)] :::database
+        TV[[Tantivy Index<br><i>Local Disk</i>]] :::database
+    end
+
+    %% Data Pipeline Interaction
+    subgraph Setup Pipeline [Ingestion Data Pipeline]
+        PL[pipeline.py] :::microservice
+    end
+
+    %% Pipeline Data Flow
+    PL -->|1. Vectorize Web Data| EMB_SVC
+    PL -->|2. Populate Vectors| QD
+    PL -->|3. Build Text Index| TV
+
+    %% Frontend Interactions
+    FE -->|GET /search/autocomplete<br>Prefix Search| API
+    FE -->|GET /search<br>Hybrid Search Query| API
+
+    %% 2. Instant Autocomplete Routing
+    API -->|High-Speed Prefix Search under 5ms| TV
+
+    %% 1. Hybrid Search Routing
+    API -->|Convert Text to Vector| EMB_SVC
+    EMB_SVC -->|384-d Vector| API
+    API -->|Semantic Search| QD
+    API -->|Keyword Search BM25| TV
+
+    %% Merging Results
+    QD -->|Semantic Matches| RRF
+    TV -->|Exact Keyword Matches| RRF
+    RRF -->|Top 5 Ranking Anime Excerpts| API
+
+    %% 3. AI Overviews Routing
+    API -->|Send Top 5 Excerpts| AI_SVC
+    AI_SVC -->|Generate 2-3 Sentence Overview| API
+
+    %% Final Return
+    API -->|Return JSON: Results + Metadata + AI Summary| FE
+
