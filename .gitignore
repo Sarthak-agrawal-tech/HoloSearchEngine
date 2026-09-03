@@ -145,3 +145,10 @@ vite.config.ts.timestamp-*
 
 #Api/targer
 api/target
+
+crawler/data/crawl-results.json
+crawler/storage
+
+tantivy_index
+
+__pycache__

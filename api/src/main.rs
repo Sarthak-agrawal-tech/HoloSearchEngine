@@ -40,6 +40,7 @@ struct SearchResponse {
     page_size: usize,
     total_pages: usize,
     query: String,
+    ai_summary: Option<String>,
 }
 
 // ── Qdrant REST response shapes ──
@@ -74,6 +75,7 @@ struct AppState {
     embedding_url: String,
     qdrant_url: String,
     collection: String,
+    ai_summary_url: String,
     http: reqwest::Client,
 }
 
@@ -109,6 +111,8 @@ async fn main() {
             .unwrap_or_else(|_| "http://127.0.0.1:6333".to_string()),
         collection: std::env::var("QDRANT_COLLECTION")
             .unwrap_or_else(|_| "anime_pages".to_string()),
+        ai_summary_url: std::env::var("AI_SUMMARY_URL")
+            .unwrap_or_else(|_| "http://127.0.0.1:8001".to_string()),
         http: reqwest::Client::new(),
     });
 
@@ -118,6 +122,7 @@ async fn main() {
 
     let app = Router::new()
         .route("/search", get(search_handler))
+        .route("/search/autocomplete", get(autocomplete_handler))
         .layer(cors)
         .with_state(state);
 
@@ -151,6 +156,7 @@ async fn search_handler(
                 page_size,
                 total_pages: 0,
                 query: query_str,
+                ai_summary: None,
             }),
         );
     }
@@ -169,6 +175,7 @@ async fn search_handler(
                     page_size,
                     total_pages: 0,
                     query: query_str,
+                    ai_summary: None,
                 }),
             );
         }
@@ -201,6 +208,19 @@ async fn search_handler(
         .take(page_size)
         .collect();
 
+    // Step 6: Fetch AI Summary (only for page 1)
+    let mut ai_summary = None;
+    if page == 1 && !page_results.is_empty() {
+        // Collect top 5 excerpts
+        let excerpts: Vec<String> = page_results
+            .iter()
+            .take(5)
+            .map(|r| r.excerpt.clone())
+            .collect();
+        
+        ai_summary = fetch_ai_summary(&state, &query_str, excerpts).await;
+    }
+
     (
         StatusCode::OK,
         Json(SearchResponse {
@@ -210,7 +230,103 @@ async fn search_handler(
             page_size,
             total_pages,
             query: query_str,
+            ai_summary,
         }),
+    )
+}
+
+// ── AI Summary ──
+
+async fn fetch_ai_summary(state: &AppState, query: &str, context: Vec<String>) -> Option<String> {
+    let url = format!("{}/summarize", state.ai_summary_url);
+    
+    let resp = match state.http.post(&url).json(&serde_json::json!({
+        "query": query,
+        "context": context
+    })).send().await {
+        Ok(r) => r,
+        Err(e) => {
+            eprintln!("[WARN] Failed to request AI summary: {}", e);
+            return None;
+        }
+    };
+
+    #[derive(Deserialize)]
+    struct SummaryResp {
+        summary: Option<String>,
+    }
+
+    match resp.json::<SummaryResp>().await {
+        Ok(body) => body.summary,
+        Err(e) => {
+            eprintln!("[WARN] Failed to parse AI summary response: {}", e);
+            None
+        }
+    }
+}
+
+// ── Autocomplete ──
+
+#[derive(Deserialize)]
+struct AutocompleteParams {
+    q: String,
+    #[serde(default = "default_ac_limit")]
+    limit: usize,
+}
+
+fn default_ac_limit() -> usize { 8 }
+
+#[derive(Serialize)]
+struct AutocompleteResponse {
+    suggestions: Vec<String>,
+}
+
+#[axum::debug_handler]
+async fn autocomplete_handler(
+    Query(params): Query<AutocompleteParams>,
+    state: axum::extract::State<Arc<AppState>>,
+) -> impl IntoResponse {
+    let query_str = params.q.trim().to_lowercase();
+    if query_str.is_empty() {
+        return (StatusCode::OK, Json(AutocompleteResponse { suggestions: vec![] }));
+    }
+
+    let searcher = state.reader.searcher();
+    let query_parser = QueryParser::for_index(&searcher.index(), vec![state.title_field]);
+    
+    // Simple approach: Use query parser for autocomplete, or just do a term query.
+    // To make it a prefix search with the default tokenizer, we can construct a RegexQuery.
+    // For simplicity, we can do a query parser with the term and get top docs.
+    let query_res = query_parser.parse_query(&query_str);
+    let query = match query_res {
+        Ok(q) => q,
+        Err(_) => return (StatusCode::OK, Json(AutocompleteResponse { suggestions: vec![] })),
+    };
+
+    let top_docs = match searcher.search(&query, &TopDocs::with_limit(params.limit * 2).order_by_score()) {
+        Ok(d) => d,
+        Err(_) => return (StatusCode::OK, Json(AutocompleteResponse { suggestions: vec![] })),
+    };
+
+    let mut suggestions = Vec::new();
+    for (_score, doc_address) in top_docs {
+        if let Ok(doc) = searcher.doc::<TantivyDocument>(doc_address) {
+            if let Some(val) = doc.get_first(state.title_field) {
+                if let Some(s) = val.as_str() {
+                    let s_string = s.to_string();
+                    if !suggestions.contains(&s_string) {
+                        suggestions.push(s_string);
+                    }
+                }
+            }
+        }
+    }
+    
+    suggestions.truncate(params.limit);
+
+    (
+        StatusCode::OK,
+        Json(AutocompleteResponse { suggestions }),
     )
 }
 
