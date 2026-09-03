@@ -55,7 +55,8 @@ flowchart TD
     AIService -->|Calls LLM| Gemini
     Gemini -.->|Returns Contextual Summary| AIService
     AIService -.->|Returns AI Summary| RustAPI
-
+```
+```mermaid
 
 graph TD
     %% Styling and Configuration
