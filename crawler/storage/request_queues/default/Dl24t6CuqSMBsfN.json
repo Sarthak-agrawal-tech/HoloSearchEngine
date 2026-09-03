@@ -1,9 +1,0 @@
-{
-	"id": "Dl24t6CuqSMBsfN",
-	"json": "{\"id\":\"Dl24t6CuqSMBsfN\",\"url\":\"https://myanimelist.net/anime.php?letter=Q\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=Q\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357210318,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=Q",
-	"url": "https://myanimelist.net/anime.php?letter=Q"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "t5KYjJ5eFidf9oB",
-	"json": "{\"id\":\"t5KYjJ5eFidf9oB\",\"url\":\"https://myanimelist.net/anime.php?letter=M&show=700\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=M&show=700\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=M&show=700\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:58.441Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=M&show=700",
-	"url": "https://myanimelist.net/anime.php?letter=M&show=700"
-}

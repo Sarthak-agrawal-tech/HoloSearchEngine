@@ -1,9 +1,0 @@
-{
-	"id": "qSccC0Lx2RiRqf4",
-	"json": "{\"id\":\"qSccC0Lx2RiRqf4\",\"url\":\"https://myanimelist.net/anime.php?letter=K&show=1450\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=K&show=1450\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=K&show=1450\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:55.374Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=K&show=1450",
-	"url": "https://myanimelist.net/anime.php?letter=K&show=1450"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "hLQsi89gCeBvGua",
-	"json": "{\"id\":\"hLQsi89gCeBvGua\",\"url\":\"https://myanimelist.net/anime/50001/Tom_to_Jerry\",\"uniqueKey\":\"https://myanimelist.net/anime/50001/Tom_to_Jerry\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357207784,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/50001/Tom_to_Jerry",
-	"url": "https://myanimelist.net/anime/50001/Tom_to_Jerry"
-}

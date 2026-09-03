@@ -1,9 +1,0 @@
-{
-	"id": "ci3jHFzrUBradxo",
-	"json": "{\"id\":\"ci3jHFzrUBradxo\",\"url\":\"https://myanimelist.net/anime/2030/El_Cazador_de_la_Bruja\",\"uniqueKey\":\"https://myanimelist.net/anime/2030/El_Cazador_de_la_Bruja\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357193378,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/2030/El_Cazador_de_la_Bruja",
-	"url": "https://myanimelist.net/anime/2030/El_Cazador_de_la_Bruja"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "obT3dFokwW0JouF",
-	"json": "{\"id\":\"obT3dFokwW0JouF\",\"url\":\"https://myanimelist.net/anime.php?letter=F&show=900\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=F&show=900\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=F&show=900\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:46.367Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=F&show=900",
-	"url": "https://myanimelist.net/anime.php?letter=F&show=900"
-}

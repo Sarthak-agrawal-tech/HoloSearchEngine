@@ -1,9 +1,0 @@
-{
-	"id": "982hB6KMAjMf8se",
-	"json": "{\"id\":\"982hB6KMAjMf8se\",\"url\":\"https://myanimelist.net/anime.php?letter=W&show=300\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=W&show=300\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=W&show=300\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:54:14.650Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=W&show=300",
-	"url": "https://myanimelist.net/anime.php?letter=W&show=300"
-}

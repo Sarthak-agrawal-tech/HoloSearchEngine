@@ -1,9 +1,0 @@
-{
-	"id": "IxgZkKoeLG7uIco",
-	"json": "{\"id\":\"IxgZkKoeLG7uIco\",\"url\":\"https://myanimelist.net/anime/6919/X-Men\",\"uniqueKey\":\"https://myanimelist.net/anime/6919/X-Men\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357207818,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/6919/X-Men",
-	"url": "https://myanimelist.net/anime/6919/X-Men"
-}

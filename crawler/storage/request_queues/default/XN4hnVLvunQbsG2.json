@@ -1,9 +1,0 @@
-{
-	"id": "XN4hnVLvunQbsG2",
-	"json": "{\"id\":\"XN4hnVLvunQbsG2\",\"url\":\"https://myanimelist.net/anime.php?letter=E&show=950\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=E&show=950\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=E&show=950\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:44.808Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=E&show=950",
-	"url": "https://myanimelist.net/anime.php?letter=E&show=950"
-}

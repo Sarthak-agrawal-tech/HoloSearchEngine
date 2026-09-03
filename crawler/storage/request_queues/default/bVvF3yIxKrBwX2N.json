@@ -1,9 +1,0 @@
-{
-	"id": "bVvF3yIxKrBwX2N",
-	"json": "{\"id\":\"bVvF3yIxKrBwX2N\",\"url\":\"https://myanimelist.net/anime.php?letter=0-9\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=0-9\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357210372,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=0-9",
-	"url": "https://myanimelist.net/anime.php?letter=0-9"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "JH9UGSmov4q1uLO",
-	"json": "{\"id\":\"JH9UGSmov4q1uLO\",\"url\":\"https://myanimelist.net/anime.php?letter=A&show=650\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=A&show=650\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=A&show=650\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:34.952Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=A&show=650",
-	"url": "https://myanimelist.net/anime.php?letter=A&show=650"
-}

@@ -1,3 +1,0 @@
-fastapi>=0.115.0
-uvicorn>=0.31.0
-sentence-transformers>=3.0.0

@@ -1,9 +1,0 @@
-{
-	"id": "rH97v83i6sMj7v5",
-	"json": "{\"id\":\"rH97v83i6sMj7v5\",\"url\":\"https://myanimelist.net/anime.php?letter=0-9&show=600\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=0-9&show=600\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=0-9&show=600\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:31.908Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=0-9&show=600",
-	"url": "https://myanimelist.net/anime.php?letter=0-9&show=600"
-}

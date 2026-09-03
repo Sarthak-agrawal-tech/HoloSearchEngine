@@ -1,9 +1,0 @@
-{
-	"id": "802K6HoshEoJ1Oc",
-	"json": "{\"id\":\"802K6HoshEoJ1Oc\",\"url\":\"https://myanimelist.net/anime.php?letter=E&show=1000\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=E&show=1000\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=E&show=1000\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:44.837Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=E&show=1000",
-	"url": "https://myanimelist.net/anime.php?letter=E&show=1000"
-}

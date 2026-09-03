@@ -1,9 +1,0 @@
-{
-	"id": "U5hprISRTud84LU",
-	"json": "{\"id\":\"U5hprISRTud84LU\",\"url\":\"https://myanimelist.net/anime.php?letter=T&show=100\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=T&show=100\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=T&show=100\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:54:09.398Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=T&show=100",
-	"url": "https://myanimelist.net/anime.php?letter=T&show=100"
-}

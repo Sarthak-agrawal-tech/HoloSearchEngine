@@ -1,9 +1,0 @@
-{
-	"id": "XyiGtg0Grfq9Jh7",
-	"json": "{\"id\":\"XyiGtg0Grfq9Jh7\",\"url\":\"https://myanimelist.net/anime.php?letter=R&show=900\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=R&show=900\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=R&show=900\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:54:07.248Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=R&show=900",
-	"url": "https://myanimelist.net/anime.php?letter=R&show=900"
-}

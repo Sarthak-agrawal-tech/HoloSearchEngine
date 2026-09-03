@@ -1,9 +1,0 @@
-{
-	"id": "Sxrrx2Ff91YHdPp",
-	"json": "{\"id\":\"Sxrrx2Ff91YHdPp\",\"url\":\"https://myanimelist.net/anime.php?letter=B\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=B\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357210264,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=B",
-	"url": "https://myanimelist.net/anime.php?letter=B"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "KZ9YXpURKwSg6d7",
-	"json": "{\"id\":\"KZ9YXpURKwSg6d7\",\"url\":\"https://myanimelist.net/anime.php?letter=0-9&show=1300\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=0-9&show=1300\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=0-9&show=1300\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:33.543Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=0-9&show=1300",
-	"url": "https://myanimelist.net/anime.php?letter=0-9&show=1300"
-}

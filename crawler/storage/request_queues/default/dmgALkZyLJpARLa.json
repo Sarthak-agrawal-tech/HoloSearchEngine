@@ -1,9 +1,0 @@
-{
-	"id": "dmgALkZyLJpARLa",
-	"json": "{\"id\":\"dmgALkZyLJpARLa\",\"url\":\"https://myanimelist.net/anime/5845/Pokemon__Pikachu_no_Natsumatsuri\",\"uniqueKey\":\"https://myanimelist.net/anime/5845/Pokemon__Pikachu_no_Natsumatsuri\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357207742,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/5845/Pokemon__Pikachu_no_Natsumatsuri",
-	"url": "https://myanimelist.net/anime/5845/Pokemon__Pikachu_no_Natsumatsuri"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "2IDSKL6rfCT9aC6",
-	"json": "{\"id\":\"2IDSKL6rfCT9aC6\",\"url\":\"https://myanimelist.net/anime.php?letter=O\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=O\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357210312,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=O",
-	"url": "https://myanimelist.net/anime.php?letter=O"
-}

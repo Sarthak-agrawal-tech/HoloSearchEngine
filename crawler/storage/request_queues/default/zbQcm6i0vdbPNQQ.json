@@ -1,9 +1,0 @@
-{
-	"id": "zbQcm6i0vdbPNQQ",
-	"json": "{\"id\":\"zbQcm6i0vdbPNQQ\",\"url\":\"https://myanimelist.net/anime.php?letter=N\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=N\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357210310,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=N",
-	"url": "https://myanimelist.net/anime.php?letter=N"
-}

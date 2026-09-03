@@ -1,9 +1,0 @@
-{
-	"id": "MFPOp5zDHRfz2ir",
-	"json": "{\"id\":\"MFPOp5zDHRfz2ir\",\"url\":\"https://myanimelist.net/anime.php?letter=N&show=250\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=N&show=250\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=N&show=250\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:59.571Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=N&show=250",
-	"url": "https://myanimelist.net/anime.php?letter=N&show=250"
-}

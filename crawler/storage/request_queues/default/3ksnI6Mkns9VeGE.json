@@ -1,9 +1,0 @@
-{
-	"id": "3ksnI6Mkns9VeGE",
-	"json": "{\"id\":\"3ksnI6Mkns9VeGE\",\"url\":\"https://myanimelist.net/anime.php?letter=L&show=1050\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=L&show=1050\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=L&show=1050\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:57.257Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=L&show=1050",
-	"url": "https://myanimelist.net/anime.php?letter=L&show=1050"
-}

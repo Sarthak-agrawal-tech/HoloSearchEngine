@@ -1,9 +1,0 @@
-{
-	"id": "0xLeo8WQEK6Hfix",
-	"json": "{\"id\":\"0xLeo8WQEK6Hfix\",\"url\":\"https://myanimelist.net/anime/2979/Akiko\",\"uniqueKey\":\"https://myanimelist.net/anime/2979/Akiko\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357211474,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/2979/Akiko",
-	"url": "https://myanimelist.net/anime/2979/Akiko"
-}

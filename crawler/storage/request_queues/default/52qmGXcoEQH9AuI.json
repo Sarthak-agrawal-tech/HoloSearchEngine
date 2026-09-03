@@ -1,9 +1,0 @@
-{
-	"id": "52qmGXcoEQH9AuI",
-	"json": "{\"id\":\"52qmGXcoEQH9AuI\",\"url\":\"https://myanimelist.net/anime/38816/Hello_World\",\"uniqueKey\":\"https://myanimelist.net/anime/38816/Hello_World\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357189798,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/38816/Hello_World",
-	"url": "https://myanimelist.net/anime/38816/Hello_World"
-}

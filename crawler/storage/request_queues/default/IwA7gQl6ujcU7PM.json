@@ -1,9 +1,0 @@
-{
-	"id": "IwA7gQl6ujcU7PM",
-	"json": "{\"id\":\"IwA7gQl6ujcU7PM\",\"url\":\"https://myanimelist.net/topanime.php?limit=7950\",\"loadedUrl\":\"https://myanimelist.net/topanime.php?limit=7950\",\"uniqueKey\":\"https://myanimelist.net/topanime.php?limit=7950\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:25.068Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/topanime.php?limit=7950",
-	"url": "https://myanimelist.net/topanime.php?limit=7950"
-}

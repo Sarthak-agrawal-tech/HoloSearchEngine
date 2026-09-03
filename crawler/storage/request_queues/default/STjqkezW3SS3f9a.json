@@ -1,9 +1,0 @@
-{
-	"id": "STjqkezW3SS3f9a",
-	"json": "{\"id\":\"STjqkezW3SS3f9a\",\"url\":\"https://myanimelist.net/anime.php?letter=E&show=50\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=E&show=50\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=E&show=50\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:44.131Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=E&show=50",
-	"url": "https://myanimelist.net/anime.php?letter=E&show=50"
-}

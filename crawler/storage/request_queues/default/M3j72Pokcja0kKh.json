@@ -1,9 +1,0 @@
-{
-	"id": "M3j72Pokcja0kKh",
-	"json": "{\"id\":\"M3j72Pokcja0kKh\",\"url\":\"https://myanimelist.net/anime.php?letter=Z\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=Z\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357210369,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=Z",
-	"url": "https://myanimelist.net/anime.php?letter=Z"
-}

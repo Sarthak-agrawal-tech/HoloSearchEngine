@@ -1,9 +1,0 @@
-{
-	"id": "1BHBOQ40AS7U9py",
-	"json": "{\"id\":\"1BHBOQ40AS7U9py\",\"url\":\"https://myanimelist.net/anime/3247/Love_Hina_Final_Selection\",\"uniqueKey\":\"https://myanimelist.net/anime/3247/Love_Hina_Final_Selection\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357195203,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/3247/Love_Hina_Final_Selection",
-	"url": "https://myanimelist.net/anime/3247/Love_Hina_Final_Selection"
-}

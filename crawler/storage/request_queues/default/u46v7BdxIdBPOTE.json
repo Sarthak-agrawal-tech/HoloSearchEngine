@@ -1,9 +1,0 @@
-{
-	"id": "u46v7BdxIdBPOTE",
-	"json": "{\"id\":\"u46v7BdxIdBPOTE\",\"url\":\"https://myanimelist.net/anime.php?letter=J&show=750\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=J&show=750\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=J&show=750\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:52.824Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=J&show=750",
-	"url": "https://myanimelist.net/anime.php?letter=J&show=750"
-}

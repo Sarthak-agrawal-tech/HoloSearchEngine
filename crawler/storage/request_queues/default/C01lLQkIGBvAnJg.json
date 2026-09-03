@@ -1,9 +1,0 @@
-{
-	"id": "C01lLQkIGBvAnJg",
-	"json": "{\"id\":\"C01lLQkIGBvAnJg\",\"url\":\"https://myanimelist.net/anime/849/Suzumiya_Haruhi_no_Yuuutsu\",\"uniqueKey\":\"https://myanimelist.net/anime/849/Suzumiya_Haruhi_no_Yuuutsu\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357186564,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/849/Suzumiya_Haruhi_no_Yuuutsu",
-	"url": "https://myanimelist.net/anime/849/Suzumiya_Haruhi_no_Yuuutsu"
-}

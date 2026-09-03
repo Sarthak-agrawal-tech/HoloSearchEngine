@@ -1,9 +1,0 @@
-{
-	"id": "ZewiaBU8dJNiUtO",
-	"json": "{\"id\":\"ZewiaBU8dJNiUtO\",\"url\":\"https://myanimelist.net/topanime.php?limit=8350\",\"loadedUrl\":\"https://myanimelist.net/topanime.php?limit=8350\",\"uniqueKey\":\"https://myanimelist.net/topanime.php?limit=8350\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:26.359Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/topanime.php?limit=8350",
-	"url": "https://myanimelist.net/topanime.php?limit=8350"
-}

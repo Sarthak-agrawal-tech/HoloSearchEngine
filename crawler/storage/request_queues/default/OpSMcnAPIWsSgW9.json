@@ -1,9 +1,0 @@
-{
-	"id": "OpSMcnAPIWsSgW9",
-	"json": "{\"id\":\"OpSMcnAPIWsSgW9\",\"url\":\"https://myanimelist.net/anime/4021/Seiyou_Kottou_Yougashiten__Antique\",\"uniqueKey\":\"https://myanimelist.net/anime/4021/Seiyou_Kottou_Yougashiten__Antique\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357197379,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime/4021/Seiyou_Kottou_Yougashiten__Antique",
-	"url": "https://myanimelist.net/anime/4021/Seiyou_Kottou_Yougashiten__Antique"
-}

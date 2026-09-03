@@ -1,9 +1,0 @@
-{
-	"id": "sH1lP2CvFB6u3gr",
-	"json": "{\"id\":\"sH1lP2CvFB6u3gr\",\"url\":\"https://myanimelist.net/anime.php?letter=M\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=M\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1788357210308,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=M",
-	"url": "https://myanimelist.net/anime.php?letter=M"
-}

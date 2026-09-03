@@ -1,9 +1,0 @@
-{
-	"id": "TZDOia212dz6Ftf",
-	"json": "{\"id\":\"TZDOia212dz6Ftf\",\"url\":\"https://myanimelist.net/anime.php?letter=D&show=400\",\"loadedUrl\":\"https://myanimelist.net/anime.php?letter=D&show=400\",\"uniqueKey\":\"https://myanimelist.net/anime.php?letter=D&show=400\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-09-02T13:53:42.624Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://myanimelist.net/anime.php?letter=D&show=400",
-	"url": "https://myanimelist.net/anime.php?letter=D&show=400"
-}
