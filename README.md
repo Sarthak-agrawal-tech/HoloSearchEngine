@@ -26,13 +26,13 @@ flowchart TD
     classDef external fill:#a855f7,stroke:#7e22ce,stroke-width:2px,color:#fff
 
     User([User / Browser]):::frontend
-    Frontend[Next.js React Frontend\n:3000]:::frontend
-    RustAPI[Rust Axum API\n:8080]:::rust
-    EmbedService[Python Embed Service\n:8000]:::python
-    AIService[Python AI Summary Service\n:8001]:::python
+    Frontend[Next.js React Frontend<br>:3000]:::frontend
+    RustAPI[Rust Axum API<br>:8080]:::rust
+    EmbedService[Python Embed Service<br>:8000]:::python
+    AIService[Python AI Summary Service<br>:8001]:::python
     
-    Qdrant[(Qdrant Vector DB\n:6333)]:::db
-    Tantivy[(Tantivy Index\nLocal Disk)]:::db
+    Qdrant[(Qdrant Vector DB<br>:6333)]:::db
+    Tantivy[(Tantivy Index<br>Local Disk)]:::db
     Gemini[Google Gemini API]:::external
 
     User -->|Searches / Types| Frontend
@@ -40,7 +40,7 @@ flowchart TD
     Frontend -->|GET /search/autocomplete| RustAPI
 
     %% Autocomplete Flow
-    RustAPI -->|Prefix Query (Title)| Tantivy
+    RustAPI -->|Prefix Query - Title| Tantivy
 
     %% Full Search Flow
     RustAPI -->|1. POST /embed| EmbedService
@@ -55,6 +55,7 @@ flowchart TD
     AIService -->|Calls LLM| Gemini
     Gemini -.->|Returns Contextual Summary| AIService
     AIService -.->|Returns AI Summary| RustAPI
+
 
 graph TD
     %% Styling and Configuration
@@ -121,3 +122,4 @@ graph TD
     %% Final Return
     API -->|Return JSON: Results + Metadata + AI Summary| FE
 
+```
