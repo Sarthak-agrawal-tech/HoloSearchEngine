@@ -16,6 +16,10 @@ interface AnimeResult {
   rrf_score: number;
   qdrant_score: number;
   tantivy_score: number;
+  streaming_links: {
+    platform: string,
+    url: string,
+  },
 }
 
 export default function HoloSearch() {

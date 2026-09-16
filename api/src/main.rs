@@ -22,7 +22,7 @@ struct SearchParams {
 fn default_page() -> usize { 1 }
 fn default_page_size() -> usize { 10 }
 
-#[define(Serialize, Deserialize, Clone)]
+#[derive(Serialize, Deserialize, Clone)]
 struct StreamingLink{
     platform: String,
     url: String,
@@ -365,12 +365,11 @@ async fn search_qdrant(
     state: &AppState,
     vector: &[f64],
     limit: usize,
-) -> Result<Vec<(String, String, String, String, f64)>, String> {
+) -> Result<Vec<(String, String, Vec<StreamingLink>, String, f64)>, String> {
     let url = format!(
         "{}/collections/{}/points/search",
         state.qdrant_url, state.collection
     );
-    let streaming_links = payload.get("streamingLinks").map(|v| v.to_string()).unwrap_or("[]".to_string());
 
     let resp = state
         .http
@@ -392,6 +391,8 @@ async fn search_qdrant(
     let mut results = Vec::new();
     for hit in body.result {
         let payload = hit.payload.unwrap_or_default();
+        let streaming_links = payload.get("streamingLinks").and_then(|v| serde_json::from_value::<Vec<StreamingLink>>(v.clone()).ok()).unwrap_or_default();
+
         let title = payload
             .get("title")
             .and_then(|v| v.as_str())
@@ -419,17 +420,12 @@ fn search_tantivy(
     state: &AppState,
     query_str: &str,
     limit: usize,
-) -> Vec<(String, String, String, f64)> {
+) -> Vec<(String, String,Vec<StreamingLink>, String, f64)> {
     let searcher = state.reader.searcher();
     let query_parser = QueryParser::for_index(
         &searcher.index(),
         vec![state.title_field, state.body_field],
     );
-    let streaming_links = doc
-    .get_first(state.streaming_links_field)
-    .map(|v| v.as_value().to_string())
-    .unwrap_or("[]".to_string());
-
     let query = match query_parser.parse_query(query_str) {
         Ok(q) => q,
         Err(_) => return vec![],
@@ -448,6 +444,11 @@ fn search_tantivy(
                 .and_then(|v| v.as_str())
                 .unwrap_or("(unknown)")
                 .to_string();
+                let streaming_links = doc
+    .get_first(state.streaming_links_field)
+    .and_then(|v| serde_json::from_value::<Vec<StreamingLink>>(v.as_value().clone()).ok())
+    .unwrap_or_default();
+
             let url = doc
                 .get_first(state.url_field)
                 .and_then(|v| v.as_str())
@@ -469,14 +470,14 @@ fn search_tantivy(
 // ── RRF Fusion ──
 
 fn fuse_results(
-    qdrant: &[(String, String, String, f64)],
-    tantivy: &[(String, String, String, f64)],
+    qdrant: &[(String, String,Vec<StreamingLink>, String, f64)],
+    tantivy: &[(String, String,Vec<StreamingLink>, String, f64)],
     k: usize,
     limit: usize,
 ) -> Vec<SearchResult> {
     let k = k as f64;
     // Map tracking: URL -> (rrf_score, title, url, excerpt, qdrant_score, tantivy_score)
-    let mut scores: HashMap<String, (f64, String, String, String, String, f64, f64)> = HashMap::new();
+    let mut scores: HashMap<String, (f64, String, String, Vec<StreamingLink>, String, f64, f64)> = HashMap::new();
 
     // Qdrant ranks
     for (rank, (title, url, streaming_links, excerpt, score)) in qdrant.iter().enumerate() {
@@ -495,7 +496,7 @@ fn fuse_results(
         });
         
         entry.0 += rrf_add;       // Accumulate total Reciprocal Rank Fusion score
-        entry.5 = *score;         // Keep the baseline tantivy score
+        entry.6 = *score;         // Keep the baseline tantivy score
     }
 
     // Convert hashmap values into vector elements
