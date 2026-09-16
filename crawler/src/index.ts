@@ -13,6 +13,7 @@ interface PageResult {
     excerpt: string | null;
     textLength: number;
     wordCount: number;
+    streamingLinks: {platform: string | undefined, url: string | undefined}[],
 }
 
 // -------------------------------------------------------------
@@ -153,6 +154,11 @@ const crawler = new CheerioCrawler({
         const synopsis = $('[itemprop="description"]').text().trim();
         const sidebarInfo = $('.spaceit_pad').text().trim();
         const score = $('.score-label').text().trim();
+        const streamingLinks = $('.broadcast.js-streaming-platforms a').map((_,el) => ({
+            platform: $(el).attr("title"),
+            url: $(el).attr("href"),
+        })).get();
+        
 
         const fullContent = `Title: ${title}\nScore: ${score}\n\nSynopsis:\n${synopsis}\n\nDetails:\n${sidebarInfo}`.trim();
 
@@ -167,6 +173,7 @@ const crawler = new CheerioCrawler({
             excerpt: synopsis.substring(0, 200),
             textLength: fullContent.length,
             wordCount: fullContent.split(/\s+/).length,
+            streamingLinks,
         };
 
         results.push(result);
