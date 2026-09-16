@@ -17,16 +17,17 @@ interface AnimeResult {
   qdrant_score: number;
   tantivy_score: number;
   streaming_links: {
-    platform: string,
-    url: string,
-  },
+    platform: string;
+    url: string;
+  }[];
 }
 
 export default function HoloSearch() {
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  const RUST_API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8080";
+  const RUST_API_BASE =
+    process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8080";
   const query = searchParams.get("q") || "";
   const page = parseInt(searchParams.get("page") || "1", 10);
 
@@ -48,14 +49,16 @@ export default function HoloSearch() {
       setLoading(true);
       try {
         // Replace with your actual API endpoint
-       const res = await fetch(`${RUST_API_BASE}/search?q=${encodeURIComponent(query)}&page=${page}&page_size=10`);
+        const res = await fetch(
+          `${RUST_API_BASE}/search?q=${encodeURIComponent(query)}&page=${page}&page_size=10`,
+        );
         const data = await res.json();
-        
+
         // Assuming API returns { data: [...], total: number }
         setResults(data.results || []);
         setTotalResults(data.total || 0);
         if (page === 1) {
-            setAiSummary(data.ai_summary || null);
+          setAiSummary(data.ai_summary || null);
         }
       } catch (err) {
         console.error("Failed to fetch anime search results:", err);
@@ -128,7 +131,9 @@ export default function HoloSearch() {
               <span>Searching...</span>
             ) : (
               <span>
-                Found <strong className="text-foreground">{totalResults}</strong> results for &quot;{query}&quot;
+                Found{" "}
+                <strong className="text-foreground">{totalResults}</strong>{" "}
+                results for &quot;{query}&quot;
               </span>
             )}
           </div>
@@ -143,7 +148,7 @@ export default function HoloSearch() {
               {aiSummary && (
                 <div className="bg-primary/5 border border-primary/20 rounded-xl p-5 mb-2 relative overflow-hidden">
                   <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-primary/50 to-primary/10"></div>
-                  <div className="flex items-center gap-2 mb-2 text-primary font-medium text-sm">
+                  <div className="flex items-center gap-2 mb-2 text-primary font-medium text-m">
                     ✨ AI Overview
                   </div>
                   <p className="text-sm text-foreground leading-relaxed whitespace-pre-wrap">
@@ -156,13 +161,23 @@ export default function HoloSearch() {
               )}
               {results.map((anime, index) => (
                 // Using index as a fallback key since your Rust API doesn't return an ID
-                <Card key={index} className="hover:border-primary/50 transition-colors">
+                <Card
+                  key={index}
+                  className="hover:border-primary/50 transition-colors"
+                >
                   <CardHeader className="p-4 pb-2">
                     <div className="flex items-start justify-between gap-2">
                       <CardTitle className="text-xl font-bold hover:underline cursor-pointer">
-                        <a href={anime.url || "#"} target="_blank" rel="noreferrer" className="flex items-center gap-1.5">
+                        <a
+                          href={anime.url || "#"}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="flex items-center gap-1.5"
+                        >
                           {anime.title}
-                          {anime.url && <ExternalLink className="w-4 h-4 text-muted-foreground" />}
+                          {anime.url && (
+                            <ExternalLink className="w-4 h-4 text-muted-foreground" />
+                          )}
                         </a>
                       </CardTitle>
                       {/* Show the Reciprocal Rank Fusion score */}
@@ -176,10 +191,37 @@ export default function HoloSearch() {
                     <p className="text-sm text-muted-foreground line-clamp-2">
                       {anime.excerpt || "No excerpt available."}
                     </p>
+                    {anime.streaming_links?.length > 0 && (
+                      <div className="pt-2">
+                        <p className="text-xs font-medium text-muted-foreground mb-2">
+                          Watch on
+                        </p>
+
+                        <div className="flex flex-wrap gap-2">
+                          {anime.streaming_links.map((link, i) => (
+                            <a
+                              key={i}
+                              href={link.url}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <Badge
+                                variant="outline"
+                                className="hover:bg-primary hover:text-primary-foreground cursor-pointer transition-colors"
+                              >
+                                {link.platform}
+                              </Badge>
+                            </a>
+                          ))}
+                        </div>
+                      </div>
+                    )}
                     <div className="flex items-center gap-2 text-xs text-muted-foreground">
-                       <span title={`Tantivy: ${anime.tantivy_score.toFixed(2)} | Qdrant: ${anime.qdrant_score.toFixed(2)}`}>
-                         Hybrid Search Result
-                       </span>
+                      <span
+                        title={`Tantivy: ${anime.tantivy_score.toFixed(2)} | Qdrant: ${anime.qdrant_score.toFixed(2)}`}
+                      >
+                        Hybrid Search Result
+                      </span>
                     </div>
                   </CardContent>
                 </Card>
