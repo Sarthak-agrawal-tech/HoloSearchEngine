@@ -22,10 +22,17 @@ struct SearchParams {
 fn default_page() -> usize { 1 }
 fn default_page_size() -> usize { 10 }
 
+#[define(Serialize, Deserialize, Clone)]
+struct StreamingLink{
+    platform: String,
+    url: String,
+}
+
 #[derive(Serialize, Clone)]
 struct SearchResult {
     title: String,
     url: String,
+    streaming_links: Vec<StreamingLink>,
     excerpt: String,
     rrf_score: f64,
     qdrant_score: f64,
@@ -77,6 +84,7 @@ struct AppState {
     collection: String,
     ai_summary_url: String,
     http: reqwest::Client,
+    streaming_links_field: Field,
 }
 
 // ── Main ──
@@ -97,6 +105,7 @@ async fn main() {
     let body_field = schema.get_field("body").unwrap();
     let url_field = schema.get_field("url").unwrap();
     let excerpt_field = schema.get_field("excerpt").unwrap();
+    let streaming_links_field = schema.get_field("streaming_links").unwrap();
 
     let state = Arc::new(AppState {
         reader,
@@ -105,6 +114,7 @@ async fn main() {
         body_field,
         url_field,
         excerpt_field,
+        streaming_links_field,
         embedding_url: std::env::var("EMBEDDING_URL")
             .unwrap_or_else(|_| "http://127.0.0.1:8000".to_string()),
         qdrant_url: std::env::var("QDRANT_URL")
@@ -355,11 +365,12 @@ async fn search_qdrant(
     state: &AppState,
     vector: &[f64],
     limit: usize,
-) -> Result<Vec<(String, String, String, f64)>, String> {
+) -> Result<Vec<(String, String, String, String, f64)>, String> {
     let url = format!(
         "{}/collections/{}/points/search",
         state.qdrant_url, state.collection
     );
+    let streaming_links = payload.get("streamingLinks").map(|v| v.to_string()).unwrap_or("[]".to_string());
 
     let resp = state
         .http
@@ -396,7 +407,7 @@ async fn search_qdrant(
             .and_then(|v| v.as_str())
             .unwrap_or("")
             .to_string();
-        results.push((title, url, excerpt, hit.score));
+        results.push((title, url, streaming_links, excerpt, hit.score));
     }
 
     Ok(results)
@@ -414,6 +425,10 @@ fn search_tantivy(
         &searcher.index(),
         vec![state.title_field, state.body_field],
     );
+    let streaming_links = doc
+    .get_first(state.streaming_links_field)
+    .map(|v| v.as_value().to_string())
+    .unwrap_or("[]".to_string());
 
     let query = match query_parser.parse_query(query_str) {
         Ok(q) => q,
@@ -444,7 +459,7 @@ fn search_tantivy(
                 .unwrap_or("")
                 .to_string();
             // FIXED: Cast tantivy f32 score to f64 to avoid type mismatches
-            results.push((title, url, excerpt, score as f64));
+            results.push((title, url, streaming_links,excerpt, score as f64));
         }
     }
 
@@ -461,22 +476,22 @@ fn fuse_results(
 ) -> Vec<SearchResult> {
     let k = k as f64;
     // Map tracking: URL -> (rrf_score, title, url, excerpt, qdrant_score, tantivy_score)
-    let mut scores: HashMap<String, (f64, String, String, String, f64, f64)> = HashMap::new();
+    let mut scores: HashMap<String, (f64, String, String, String, String, f64, f64)> = HashMap::new();
 
     // Qdrant ranks
-    for (rank, (title, url, excerpt, score)) in qdrant.iter().enumerate() {
+    for (rank, (title, url, streaming_links, excerpt, score)) in qdrant.iter().enumerate() {
         let rrf = 1.0 / (k + (rank + 1) as f64);
         scores.insert(
             url.clone(),
-            (rrf, title.clone(), url.clone(), excerpt.clone(), *score, 0.0),
+            (rrf, title.clone(), url.clone(),streaming_links.clone(), excerpt.clone(), *score, 0.0),
         );
     }
 
     // Tantivy ranks — merge
-    for (rank, (title, url, excerpt, score)) in tantivy.iter().enumerate() {
+    for (rank, (title, url, streaming_links, excerpt, score)) in tantivy.iter().enumerate() {
         let rrf_add = 1.0 / (k + (rank + 1) as f64);
         let entry = scores.entry(url.clone()).or_insert_with(|| {
-            (0.0, title.clone(), url.clone(), excerpt.clone(), 0.0, 0.0)
+            (0.0, title.clone(), url.clone(), streaming_links.clone(), excerpt.clone(), 0.0, 0.0)
         });
         
         entry.0 += rrf_add;       // Accumulate total Reciprocal Rank Fusion score
@@ -486,9 +501,10 @@ fn fuse_results(
     // Convert hashmap values into vector elements
     let mut merged: Vec<SearchResult> = scores
         .into_values()
-        .map(|(rrf_score, title, url, excerpt, qdrant_score, tantivy_score)| SearchResult {
+        .map(|(rrf_score, title, url, streaming_links, excerpt, qdrant_score, tantivy_score)| SearchResult {
             title,
             url,
+            streaming_links,
             excerpt,
             rrf_score,
             qdrant_score,
