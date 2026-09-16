@@ -104,6 +104,7 @@ for i, page in enumerate(pages):
                 "excerpt": page_data["excerpt"],
                 "textLength": page_data["textLength"],
                 "wordCount": page_data["wordCount"],
+                "streamingLinks": page_data.get("streamingLinks",[]), 
             }
             batch_points.append(
                 models.PointStruct(id=point_id_counter, vector=vector, payload=payload)
