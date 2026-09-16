@@ -14,7 +14,9 @@ schema_builder.add_text_field("title", stored=True)
 schema_builder.add_text_field("body", stored=True)
 schema_builder.add_text_field("url", stored=True, tokenizer_name="raw")
 schema_builder.add_text_field("excerpt", stored=True, tokenizer_name="raw")
+schema_builder.add_json_field("streaming_links", stored=True)
 schema = schema_builder.build()
+
 
 """
 Schema decisions:
@@ -72,6 +74,7 @@ for i, page in enumerate(pages):
             body=text.strip(),
             url=url,
             excerpt=page["excerpt"] or "",
+            streaming_links=page.get("streamingLinks", [])
         )
     )
     indexed += 1
