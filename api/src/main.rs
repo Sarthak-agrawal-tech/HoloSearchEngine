@@ -7,7 +7,8 @@ use tantivy::query::QueryParser;
 use tantivy::schema::*;
 use tantivy::{Index, IndexReader, TantivyDocument};
 use tower_http::cors::{Any, CorsLayer};
-
+use tantivy::query::{BooleanQuery, FuzzyTermQuery, Occur};
+use tantivy::Term;
 // ── Request / Response types ──
 
 #[derive(Deserialize)]
@@ -211,7 +212,7 @@ async fn search_handler(
 
     // Step 5: Slice for the requested page
     let start = (page - 1) * page_size;
-    let end = start + page_size;
+    let _end = start + page_size;
     let page_results: Vec<SearchResult> = fused
         .into_iter()
         .skip(start)
@@ -414,29 +415,58 @@ async fn search_qdrant(
     Ok(results)
 }
 
-// ── Tantivy search ──
+
+//tantivy search
+
 
 fn search_tantivy(
     state: &AppState,
     query_str: &str,
     limit: usize,
-) -> Vec<(String, String,Vec<StreamingLink>, String, f64)> {
+) -> Vec<(String, String, Vec<StreamingLink>, String, f64)> {
     let searcher = state.reader.searcher();
-    let query_parser = QueryParser::for_index(
-        &searcher.index(),
-        vec![state.title_field, state.body_field],
-    );
-    let query = match query_parser.parse_query(query_str) {
-        Ok(q) => q,
-        Err(_) => return vec![],
-    };
 
-    let top_docs = match searcher.search(&query, &TopDocs::with_limit(limit).order_by_score()) {
+    // Build fuzzy queries manually
+    let mut subqueries: Vec<(Occur, Box<dyn tantivy::query::Query>)> = Vec::new();
+
+    for word in query_str.split_whitespace() {
+        if word.len() < 2 {
+            continue;
+        }
+
+        let distance = if word.len() <= 4 { 1 } else { 2 };
+
+        // Search in title
+        let title_term = Term::from_field_text(state.title_field, word);
+        subqueries.push((
+            Occur::Should,
+            Box::new(FuzzyTermQuery::new(title_term, distance, true)),
+        ));
+
+        // Search in body
+        let body_term = Term::from_field_text(state.body_field, word);
+        subqueries.push((
+            Occur::Should,
+            Box::new(FuzzyTermQuery::new(body_term, distance, true)),
+        ));
+    }
+
+    if subqueries.is_empty() {
+        return vec![];
+    }
+
+    let query = BooleanQuery::new(subqueries);
+
+    let top_docs = match searcher.search(
+        &query,
+        &TopDocs::with_limit(limit).order_by_score(),
+    ) {
         Ok(d) => d,
         Err(_) => return vec![],
     };
 
     let mut results = Vec::new();
+
     for (score, doc_address) in top_docs {
         if let Ok(doc) = searcher.doc::<TantivyDocument>(doc_address) {
             let title = doc
@@ -444,29 +474,34 @@ fn search_tantivy(
                 .and_then(|v| v.as_str())
                 .unwrap_or("(unknown)")
                 .to_string();
-                let streaming_links = doc
-    .get_first(state.streaming_links_field)
-    .and_then(|v| serde_json::from_value::<Vec<StreamingLink>>(v.as_value().clone()).ok())
-    .unwrap_or_default();
+
+            let streaming_links = doc
+                .get_first(state.streaming_links_field)
+                .and_then(|v| {
+                    let owned: tantivy::schema::OwnedValue = v.into();
+                    let json = serde_json::to_value(owned).ok()?;
+                    serde_json::from_value::<Vec<StreamingLink>>(json).ok()
+                })
+                .unwrap_or_default();
 
             let url = doc
                 .get_first(state.url_field)
                 .and_then(|v| v.as_str())
                 .unwrap_or("")
                 .to_string();
+
             let excerpt = doc
                 .get_first(state.excerpt_field)
                 .and_then(|v| v.as_str())
                 .unwrap_or("")
                 .to_string();
-            // FIXED: Cast tantivy f32 score to f64 to avoid type mismatches
-            results.push((title, url, streaming_links,excerpt, score as f64));
+
+            results.push((title, url, streaming_links, excerpt, score as f64));
         }
     }
 
     results
 }
-
 // ── RRF Fusion ──
 
 fn fuse_results(

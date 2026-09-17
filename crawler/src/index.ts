@@ -154,8 +154,8 @@ const crawler = new CheerioCrawler({
         const synopsis = $('[itemprop="description"]').text().trim();
         const sidebarInfo = $('.spaceit_pad').text().trim();
         const score = $('.score-label').text().trim();
-        const streamingLinks = $('.broadcast.js-streaming-platforms a').map((_,el) => ({
-            platform: $(el).attr("title"),
+        const streamingLinks = $('.broadcast a').map((_,el) => ({
+            platform: $(el).attr("title") || $(el).text().trim(),
             url: $(el).attr("href"),
         })).get();
         

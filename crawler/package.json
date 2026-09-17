@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "tsx src/index.ts",
-    "test": "tsx src/test_scrape.ts"
+    "test": "tsx src/test_op.ts"
   },
   "dependencies": {
     "crawlee": "^3.11.0",
