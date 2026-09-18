@@ -16,6 +16,8 @@ schema_builder.add_text_field("url", stored=True, tokenizer_name="raw")
 schema_builder.add_text_field("excerpt", stored=True, tokenizer_name="raw")
 schema_builder.add_json_field("streaming_links", stored=True)
 schema = schema_builder.build()
+schema_builder.add_f64_field("score", stored=True, fast=True) 
+schema_builder.add_json_field("genres", stored=True)
 
 
 """
@@ -74,7 +76,9 @@ for i, page in enumerate(pages):
             body=text.strip(),
             url=url,
             excerpt=page["excerpt"] or "",
-            streaming_links=page.get("streamingLinks", [])
+            streaming_links=page.get("streamingLinks", []),
+            score=page.get("score"),
+            geners=page.get("genres",[]),
         )
     )
     indexed += 1
