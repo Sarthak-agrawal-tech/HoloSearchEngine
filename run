@@ -1,0 +1,53 @@
+1. Start Qdrant (Database)
+Open terminal 1:
+
+powershell
+
+
+cd "C:\Users\Lenovo\Desktop\SearchEngine(Main)\HoloSearchEngine"
+docker-compose up -d
+2. Start the Embedding Service
+Open terminal 2:
+
+powershell
+
+
+cd "C:\Users\Lenovo\Desktop\SearchEngine(Main)\HoloSearchEngine"
+.\venv\Scripts\activate
+cd embeded_service
+uvicorn main:app --port 8000
+3. Start the AI Summary Service
+Open terminal 3:
+
+powershell
+
+
+cd "C:\Users\Lenovo\Desktop\SearchEngine(Main)\HoloSearchEngine"
+.\venv\Scripts\activate
+# Make sure your API key is exported so it doesn't get disabled
+$env:GEMINI_API_KEY="YOUR_GOOGLE_STUDIO_API_KEY"
+cd ai_summary
+uvicorn main:app --port 8001
+4. Start the Rust API
+Open terminal 4:
+
+powershell
+
+
+cd "C:\Users\Lenovo\Desktop\SearchEngine(Main)\HoloSearchEngine\api"
+$env:TANTIVY_PATH="../tantivy_index"
+$env:EMBEDDING_URL="http://127.0.0.1:8000"
+$env:QDRANT_URL="http://127.0.0.1:6333"
+$env:AI_SUMMARY_URL="http://127.0.0.1:8001"
+cargo run
+5. Start the Next.js Frontend
+Open terminal 5:
+
+powershell
+
+
+cd "C:\Users\Lenovo\Desktop\SearchEngine(Main)\HoloSearchEngine\frontend\holo-search-engine"
+$env:NEXT_PUBLIC_API_URL="http://127.0.0.1:8080"
+npm run dev
+Go to http://localhost:3000
+ in your browser, search for "One Piece", and let's see if those new "Watch on Crunchyroll" / "Watch on Netflix" buttons appear on the search card!

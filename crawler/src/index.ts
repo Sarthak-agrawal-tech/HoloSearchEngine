@@ -14,6 +14,8 @@ interface PageResult {
     textLength: number;
     wordCount: number;
     streamingLinks: {platform: string | undefined, url: string | undefined}[],
+    score: number | null,
+    genres: string[],
 }
 
 // -------------------------------------------------------------
@@ -77,6 +79,27 @@ async function loadExistingResults() {
     } catch {
         console.log(`[NEW] Starting a new dataset.`);
     }
+}
+
+function extractGenres(sidebarInfo: string): string[] {
+  // Get everything after "Genres:" until the next section
+  const match = sidebarInfo.match(
+    /Genres:\s*([\s\S]*?)(?:Themes?:|Demographic:|Duration:|Rating:)/i
+  );
+
+  if (!match) return [];
+
+  const raw = match[1];
+
+  return raw
+    .split(",")
+    .map(g => g.replace(/\s+/g, "").trim()) // Remove spaces/newlines
+    .filter(Boolean)
+    .map(g => {
+      // ActionAction -> Action
+      const half = Math.floor(g.length / 2);
+      return g.slice(0, half) === g.slice(half) ? g.slice(0, half) : g;
+    });
 }
 
 const crawler = new CheerioCrawler({
@@ -159,7 +182,7 @@ const crawler = new CheerioCrawler({
             url: $(el).attr("href"),
         })).get();
         
-
+        const genre = extractGenres(sidebarInfo);
         const fullContent = `Title: ${title}\nScore: ${score}\n\nSynopsis:\n${synopsis}\n\nDetails:\n${sidebarInfo}`.trim();
 
         if (!synopsis || fullContent.length < 50) {
@@ -174,6 +197,8 @@ const crawler = new CheerioCrawler({
             textLength: fullContent.length,
             wordCount: fullContent.split(/\s+/).length,
             streamingLinks,
+            score: Number(score),
+            genres:genre,
         };
 
         results.push(result);

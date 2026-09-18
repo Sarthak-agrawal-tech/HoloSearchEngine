@@ -1,5 +1,26 @@
 import { CheerioCrawler } from 'crawlee';
 
+function extractGenres(sidebarInfo: string): string[] {
+  // Get everything after "Genres:" until the next section
+  const match = sidebarInfo.match(
+    /Genres:\s*([\s\S]*?)(?:Themes?:|Demographic:|Duration:|Rating:)/i
+  );
+
+  if (!match) return [];
+
+  const raw = match[1];
+
+  return raw
+    .split(",")
+    .map(g => g.replace(/\s+/g, "").trim()) // Remove spaces/newlines
+    .filter(Boolean)
+    .map(g => {
+      // ActionAction -> Action
+      const half = Math.floor(g.length / 2);
+      return g.slice(0, half) === g.slice(half) ? g.slice(0, half) : g;
+    });
+}
+
 const crawler = new CheerioCrawler({
     async requestHandler({ request, $ }) {
         console.log("\n\n--- Testing Streaming Selectors on:", request.url, "---");
@@ -22,7 +43,9 @@ const crawler = new CheerioCrawler({
         const crLinks = $('a[href*="crunchyroll.com"], a[href*="netflix.com"]').map((_, el) => ({
             title: $(el).attr('title'),
             href: $(el).attr('href'),
-            parentClass: $(el).parent().attr('class')
+            parentClass: $(el).parent().attr('class'),
+            score : $('.score-label').text().trim(),
+            genre : extractGenres($('.spaceit_pad').text().trim()),
         })).get();
         console.log("Hardcoded platform links found:", crLinks);
     }
